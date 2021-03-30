@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+// Breakpoints
+$tablet: 768px;
+$window: 1025px;
+
+// BREAKPOINT EXAMPLE
+
+// Mobile first
+// body {
+//   background-color: blue;
+// }
+
+// tablet breakpoint
+// @media screen and (min-width: $tablet ) {
+  
+//   body {
+//     background-color: red;
+//   }
+
+// }
+// window breakpoint
+// @media screen and (min-width: $window) {
+
+//   body {
+//     background-color: green;
+//   }
+
+// }
+
+// COLORS
+$williamGreen: #3C6667; 
+$buttonGreen: #3d7472;
+$oldGold: #CEBF3F;
+$oldOrange: #D2AA31;
+$nutmeg: #873A2A;
+$eggplant: #5B3550;
+$sugarWhite: #FFFFFF;
+$grayNurse: #DDDDDD;
+
+// FONTS
+
+$font: 'Open Sans', sans-serif;
+
+$headerSize: 2em;
+$bodySize: 1.25em;

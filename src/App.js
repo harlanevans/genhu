@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch } from 'react-router';
+import './assets/Global.scss';
 
-function App() {
+import Navbar from './components/Navbar/Navbar.jsx';
+import Landing from './components/Landing/Landing.jsx'
+
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <> 
+      <Navbar />
+      <Switch>
+        <section style={styles.sectionPadding}>
+        <Route exact path='/' component={ Landing}/>
+        </section>
+      </Switch>
+      </>
+  )
 }
 
 export default App;
+
+const styles = {
+  sectionPadding: {
+    padding: "2em 2em",
+  }
+}

@@ -1,0 +1,37 @@
+@import '../../assets/Global.scss';
+
+
+// Mobile first
+nav, #main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // padding: 1.25em;
+  border-bottom: solid 1px $grayNurse;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: $sugarWhite;
+  overflow: hidden;
+}
+
+#nav-logo, #nav-dropdown {
+  padding: 1em;
+}
+
+// tablet breakpoint
+@media screen and (min-width: $tablet ) {
+  
+  nav {
+    background-color: red;
+  }
+
+}
+// window breakpoint
+@media screen and (min-width: $window) {
+
+  nav {
+    background-color: green;
+  }
+
+}
