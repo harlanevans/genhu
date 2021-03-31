@@ -1,0 +1,43 @@
+@import '../../../assets/Global.scss';
+
+#success-page {
+  background: rgb(178,112,109);
+  background: linear-gradient(180deg, rgba(178,112,109,1) 0%, rgba(170,138,155,1) 100%);
+  color: $sugarWhite;
+  height: 100%;
+  padding: 2em 0em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align:center;
+  width: 100%;
+}
+
+#success-header {
+  font-size: $headerSize;
+  padding: .5em 0em;
+}
+
+#success-subheader {
+  border-top: solid 1px $sugarWhite;
+  padding-top: .5em;
+  font-size: 1.25em;
+  letter-spacing: .15em;
+}
+
+.number-cont {
+  padding: 1em 0em;
+}
+
+.number-counter {
+  font-size: 2.5em;
+  letter-spacing: .10em;
+}
+
+.number-label {
+  font-size: .75em;
+  letter-spacing: .25em;
+  font-weight: 300;
+}
+

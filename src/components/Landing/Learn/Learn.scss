@@ -1,0 +1,22 @@
+@import '../../../assets/Global.scss';
+
+#header-learn-more {
+  font-size: $headerSize;
+  font-weight: 400;
+}
+
+.learn-header {
+  color: $williamGreen;
+  padding: 1em 0em;
+}
+
+.learn-content {
+  font-size: .75em;
+  line-height: 2em;
+  font-weight: 400;
+}
+
+hr {
+  border: solid 1px $williamGreen;
+  margin-bottom: 1em;
+}

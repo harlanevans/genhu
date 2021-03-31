@@ -10,9 +10,7 @@ const App = () => {
     <> 
       <Navbar />
       <Switch>
-        <section style={styles.sectionPadding}>
         <Route exact path='/' component={ Landing}/>
-        </section>
       </Switch>
       </>
   )
@@ -20,8 +18,3 @@ const App = () => {
 
 export default App;
 
-const styles = {
-  sectionPadding: {
-    padding: "2em 2em",
-  }
-}

@@ -1,0 +1,39 @@
+@import '../../../assets/Global.scss';
+
+#stages-header {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 1em;
+}
+
+#high-risk {
+  background-color: #65908f;
+  color: $sugarWhite;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.risk-header {
+  font-weight: 300;
+  border-bottom: solid 1px $sugarWhite;
+  padding: .75em 0em;
+}
+
+.risk-body {
+  font-weight: 300;
+  font-size: .75em;
+  padding: 1em 0em;
+}
+
+.risk-identity {
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: .10em;
+}
+
+// ad625b
+// 85617d
+// d4c64a

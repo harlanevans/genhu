@@ -2,7 +2,7 @@
 
 #proven-page {
   padding: 2em 0em;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
 }
 
@@ -12,12 +12,15 @@
 
 #proven-headers {
   font-size: $headerSize;
+  font-weight: 400;
+
 }
 
 #kids-explained {
   line-height: 2em;
   font-size: $bodySize;
   padding-bottom: 2em;
+
 }
 
 #proven-button {
