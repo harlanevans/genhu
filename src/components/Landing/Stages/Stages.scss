@@ -7,25 +7,57 @@
 }
 
 #high-risk {
-  background-color: #65908f;
+background-color: #65908f;
+}
+#in-street {
+background-color: #AE635B;
+}
+#of-street {
+background-color: #835F7C;
+}
+
+#help-donate {
+  background-color: #D5C54A;
   color: $sugarWhite;
-  height: 40vh;
+  height: 50vh;
+  margin: 1em;
+  padding: .5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+#high-risk, #in-street, #of-street {
+  color: $sugarWhite;
+  height: 50vh;
+  margin: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 3px 3px 10px gray;
 }
 
+
 .risk-header {
-  font-weight: 300;
+  font-weight: 400;
   border-bottom: solid 1px $sugarWhite;
-  padding: .75em 0em;
+  height: .75em;
+  padding: .75em .5em;
+}
+
+.help-header {
+  font-size: 1.5em;
+  font-weight: 400;
+
 }
 
 .risk-body {
   font-weight: 300;
   font-size: .75em;
-  padding: 1em 0em;
+  padding: 1.5em 0em;
 }
 
 .risk-identity {
@@ -33,6 +65,18 @@
   text-align: center;
   letter-spacing: .10em;
 }
+
+#donate-button {
+  background-color: transparent;
+  color: white;
+  border: solid 2px white;
+  font-size: 1em;
+  letter-spacing: .25em;
+  font-weight: 300;
+  padding: 1em 1.5em;
+}
+
+
 
 // ad625b
 // 85617d

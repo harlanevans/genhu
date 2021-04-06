@@ -1,9 +1,11 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Success.scss'
 import CountUp from 'react-countup';
 
-const Success = () => {
+const Success = (props) => {
+  const [inComp, setInComp] = useState(false)
 
+ 
   return (
     <section id="success-page">
       <header id="success-header">SUCCESS</header>
