@@ -3,7 +3,7 @@ import './Privacy.scss';
 
 const Privacy = () => (
   <section
-    style={{ paddingTop: "8em", paddingLeft: "2em", paddingRight: "2em" }}
+    style={{ paddingTop: "6em", }}
   >
     <header>
       <h1>Privacy Policy</h1>

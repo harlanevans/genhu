@@ -4,7 +4,7 @@ import Logo from "../../assets/icons/Logo.png";
 import Menu from "../../assets/icons/menu.png";
 import Close from "../../assets/icons/close.svg";
 import { Fade } from "react-reveal";
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -27,7 +27,7 @@ const Navbar = () => {
             />
           </div>
           <div className="menu-content">
-            <a>About Us</a>
+            <NavLink to='/about' id='nav-link' onClick={() => toggled()}>About Us</NavLink>
             <a>Homes & Projects</a>
             <a>Contact Us</a>
           </div>
