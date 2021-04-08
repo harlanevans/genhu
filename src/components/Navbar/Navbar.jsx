@@ -4,6 +4,7 @@ import Logo from "../../assets/icons/Logo.png";
 import Menu from "../../assets/icons/menu.png";
 import Close from "../../assets/icons/close.svg";
 import { Fade } from "react-reveal";
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -16,7 +17,7 @@ const Navbar = () => {
 
   const menu = () => {
     return (
-      <Fade left opposite when={toggleMenu}>
+      <Fade left>
         <div id="nav-menu">
           <div id="close-icon-cont">
             <img
@@ -39,7 +40,9 @@ const Navbar = () => {
     <>
       <nav id="main-nav">
         <div id="nav-logo-cont">
+          <Link to='/'>
           <img src={Logo} id="nav-logo" />
+          </Link>
         </div>
         <div id="nav-menu-cont">
           <img
@@ -49,7 +52,7 @@ const Navbar = () => {
           />
         </div>
       </nav>
-      { menu()}
+      { toggleMenu && menu()}
     </>
   );
 };

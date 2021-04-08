@@ -28,16 +28,16 @@ const Landing = () => {
         <ProvenPage />
       </section>
       <section>
-        <Success />
+        <Fade ssrFadeout>
+          <Success />
+        </Fade>
         <section style={styles.sectionPadding}>
           <Learn />
         </section>
         <section style={styles.sectionPadding}>
           <Stages />
         </section>
-        <section style={styles.sectionPadding}>
-          <Footer />
-        </section>
+        
       </section>
     </>
   );

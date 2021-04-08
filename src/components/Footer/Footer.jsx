@@ -1,5 +1,9 @@
 import React from "react";
 import "./Footer.scss";
+import Facebook from '../../assets/icons/Facebook.svg'
+import Instagram from '../../assets/icons/Instagram.svg'
+import Twitter from '../../assets/icons/Twitter.svg'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -55,10 +59,10 @@ const Legal = () => {
       <div className="footer-body">
         <div>
 
-        <a>Policy and Financial</a>
+        <Link to="/policy-and-financial">Policy and Financial</Link>
         </div>
         <div>
-        <a>Privacy</a>
+        <Link to='/privacy'>Privacy</Link>
         </div>
       </div>
     </section>
@@ -69,17 +73,17 @@ const Contact = () => {
   return (
     <section className="footer-section">
       <header className="footer-headers">CONTACT US</header>
-      <div className="footer-body">
+      <section className="footer-body">
         <p>2607 Casto Lane,</p>
         <p>Salt Lake City, Utah 84117</p>
         <div>
-          Phone: <a>+1 801-859-1033</a>
+          Phone: <a href="tel:+18018591033">+1 801-859-1033</a>
         </div>
         <div>
-          Email: <a>van@genhu.org</a>
+          Email: <a href="mailto:van@genhu.org">van@genhu.org</a>
         </div>
         <div>Website: www.genhu.org</div>
-      </div>
+      </section>
       <section>
         <SocialMedia />
       </section>
@@ -90,17 +94,31 @@ const Contact = () => {
 const SocialMedia = () => {
   return (
     <section className="footer-section footer-body">
-      <div >
-        <img />
-        Facebook
+      <div className="social-icon-cont">
+        <a
+          href="https://www.facebook.com/genhu.org/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={Facebook} id="footer-social-icon" alt="facebook-icon" />
+          Facebook
+        </a>
       </div>
-      <div>
-        <img />
-        Twitter
+      <div className="social-icon-cont">
+        <a href="https://twitter.com/Genhu" target="_blank" rel="noreferrer">
+          <img src={Twitter} id="footer-social-icon" alt="twitter-icon" />
+          Twitter
+        </a>
       </div>
-      <div>
-        <img />
-        Instagram
+      <div className="social-icon-cont">
+        <a
+          href="https://www.instagram.com/generationshumanitarian/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={Instagram} id="footer-social-icon" alt="instagram-icon" />
+          Instagram
+        </a>
       </div>
     </section>
   );
