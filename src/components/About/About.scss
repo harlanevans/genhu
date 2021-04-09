@@ -1,25 +1,45 @@
-@import '../../assets/Global.scss';
+@import "../../assets/Global.scss";
 
 #about-section {
-  padding: 2em 0em;
+  padding: 1.5em 0em;
   border-bottom: solid 1px gray;
 }
 
 #about-headers {
-  padding: 1em 0em;
+  padding: .75em 0em;
 }
 
 #about-p {
   font-weight: 300;
-  font-size: .9em;
+  font-size: 0.9em;
   line-height: 2em;
+}
+
+#about-staff-btn {
+  background-color: $buttonGreen;
+  color: $sugarWhite;
+  padding: 1em 2em;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 1em;
 }
 
 #about-list {
   font-weight: 300;
-  padding: 2em;
+  padding: 1em 1em 1em 2em;
 }
 
 #about-li {
-  padding: .5em 0em;
+  padding: 0.25em 0em;
+}
+
+#about-link {
+  text-decoration: none;
+  color: $linkGreen;
+}
+
+#about-button-cont {
+  display: flex;
+  justify-content: center;
+  padding: 2em 0em 1em;
 }

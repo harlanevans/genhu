@@ -28,6 +28,7 @@ const Navbar = () => {
           </div>
           <div className="menu-content">
             <NavLink to='/about' id='nav-link' onClick={() => toggled()}>About Us</NavLink>
+            <NavLink to='/our-staff' id='nav-link' onClick={() => toggled()}>Our Staff</NavLink>
             <a>Homes & Projects</a>
             <a>Contact Us</a>
           </div>

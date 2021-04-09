@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer.jsx";
 import Privacy from "./components/Legal/Privacy/Privacy";
 import Policy from "./components/Legal/Policy/Policy";
 import About from "./components/About/About";
+import Staff from "./components/About/Staff/Staff";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route exact path="/privacy" component={Privacy} />
           <Route exact path="/policy-and-financial" component={Policy} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/our-staff" component={Staff} />
           </div>
         </Switch>
       </ScrollToTop>
