@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Success.scss";
 import CountUp from "react-countup";
-import { Fade, Slide } from "react-reveal";
+import { Fade } from "react-reveal";
 
-const Success = (props) => {
-  const [inComp, setInComp] = useState(false);
+const Success = () => {
 
   return (
     <section id="success-page">

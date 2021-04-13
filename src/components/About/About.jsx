@@ -48,8 +48,8 @@ const About = () => {
       </section>
       <section id="about-section">
         <header id="about-headers">BELIEFS</header>
-        <p id="about-p">
           <ul id="about-list">
+        <p id="about-p">
             <li id="about-li">
               We believe all children should grow up in a home with goodly,
               loving parents who provide for their physical, emotional, and
@@ -86,8 +86,8 @@ const About = () => {
               religious institution, thereby respecting their right to
               self-determination.
             </li>
-          </ul>
         </p>
+          </ul>
       </section>
       <section id="about-section">
         <header id="about-headers">VALUES</header>
@@ -95,6 +95,7 @@ const About = () => {
           Genhu does not participate in “turf wars” and we don’t view the world
           through the lens of scarcity. We are abundance minded. We strive to
           be:
+        </p>
           <ul id="about-list">
             <li id="about-li">Loving</li>
             <li id="about-li">Culturally Sensitive</li>
@@ -102,7 +103,6 @@ const About = () => {
             <li id="about-li">Accountable</li>
             <li id="about-li">Open and Transparent</li>
           </ul>
-        </p>
       </section>
     </section>
   );

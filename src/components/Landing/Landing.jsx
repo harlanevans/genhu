@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import handleViewport from 'react-in-viewport';
+import React from "react";
 import { Fade } from 'react-reveal'
 import "./Landing.scss";
 import LandingKids from "../../assets/images/KidsLanding.jpg";
@@ -8,10 +7,9 @@ import ProvenPage from "./Proven/Proven";
 import Success from "./Success/Success";
 import Learn from "./Learn/Learn";
 import Stages from "./Stages/Stages";
-import Footer from '../Footer/Footer';
+// import Footer from '../Footer/Footer';
 
 const Landing = () => {
-  const [inComp, setInComp] = useState(false)
   return (
     <>
       <section id="landing-page" style={styles.sectionPadding}>

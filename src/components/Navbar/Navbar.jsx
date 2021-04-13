@@ -8,7 +8,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-  const [fadeShow, setFadeShow] = useState(false);
+  // const [fadeShow, setFadeShow] = useState(false);
 
   const toggled = () => {
     // setFadeShow(!fadeShow)
@@ -24,13 +24,14 @@ const Navbar = () => {
               src={Close}
               onClick={() => toggled()}
               id="close-icon"
+              alt='close-icon'
             />
           </div>
           <div className="menu-content">
             <NavLink to='/about' id='nav-link' onClick={() => toggled()}>About Us</NavLink>
             <NavLink to='/our-staff' id='nav-link' onClick={() => toggled()}>Our Staff</NavLink>
-            <a>Homes & Projects</a>
-            <a>Contact Us</a>
+            {/* <a>Homes & Projects</a>
+            <a>Contact Us</a> */}
           </div>
         </div>
       </Fade>
@@ -42,7 +43,7 @@ const Navbar = () => {
       <nav id="main-nav">
         <div id="nav-logo-cont">
           <Link to='/'>
-          <img src={Logo} id="nav-logo" />
+          <img src={Logo} id="nav-logo" alt='genhu-logo'/>
           </Link>
         </div>
         <div id="nav-menu-cont">
@@ -50,6 +51,7 @@ const Navbar = () => {
             src={Menu}
             id="nav-dropdown"
             onClick={() => toggled()}
+            alt="menu-button"
           />
         </div>
       </nav>
