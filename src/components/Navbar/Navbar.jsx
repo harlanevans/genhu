@@ -24,14 +24,24 @@ const Navbar = () => {
               src={Close}
               onClick={() => toggled()}
               id="close-icon"
-              alt='close-icon'
+              alt="close-icon"
             />
           </div>
           <div className="menu-content">
-            <NavLink to='/about' id='nav-link' onClick={() => toggled()}>About Us</NavLink>
-            <NavLink to='/our-staff' id='nav-link' onClick={() => toggled()}>Our Staff</NavLink>
-            {/* <a>Homes & Projects</a>
-            <a>Contact Us</a> */}
+            <NavLink to="/about" id="nav-link" onClick={() => toggled()}>
+              About Us
+            </NavLink>
+            <NavLink to="/our-staff" id="nav-link" onClick={() => toggled()}>
+              Our Staff
+            </NavLink>
+            <NavLink
+              to="/homes&projects"
+              id="nav-link"
+              onClick={() => toggled()}
+            >
+              Homes & Projects
+            </NavLink>
+            {/* <a>Contact Us</a> */}
           </div>
         </div>
       </Fade>

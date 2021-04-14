@@ -9,6 +9,10 @@ import Privacy from "./components/Legal/Privacy/Privacy";
 import Policy from "./components/Legal/Policy/Policy";
 import About from "./components/About/About";
 import Staff from "./components/About/Staff/Staff";
+import Homes from "./components/Homes/Homes";
+import Anta from "./components/Homes/Anta/Anta";
+import Alvarado from "./components/Homes/Alvarado/Alvarado";
+import AzulWasi from "./components/Homes/AzulWasi/AzulWasi";
 
 const App = () => {
   return (
@@ -16,13 +20,17 @@ const App = () => {
       <Navbar />
       <ScrollToTop>
         <Switch>
-
           <Route exact path="/" component={Landing} />
           <div style={styles.sectionPadding}>
-          <Route exact path="/privacy" component={Privacy} />
-          <Route exact path="/policy-and-financial" component={Policy} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/our-staff" component={Staff} />
+            <Route exact path="/privacy" component={Privacy} />
+            <Route exact path="/policy-and-financial" component={Policy} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/our-staff" component={Staff} />
+            <Route exact path="/homes&projects" component={Homes} />
+
+            <Route exact path="/homes&projects/anta" component={Anta} />
+            <Route exact path="/homes&projects/alvarado" component={Alvarado} />
+            <Route exact path="/homes&projects/azulwasi" component={AzulWasi} />
           </div>
         </Switch>
       </ScrollToTop>

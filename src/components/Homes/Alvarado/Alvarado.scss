@@ -1,0 +1,57 @@
+@import "../../../assets/Global.scss";
+
+#alvarado-header {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+#alvarado-names {
+  font-weight: 400;
+  font-size: 1.25em;
+  padding: 0.5em 0em;
+}
+
+#alvarado-titles {
+  font-weight: 400;
+  font-size: 0.75em;
+}
+
+#alvarado-sections {
+  padding: 1em 0em;
+}
+
+#alvarado-maps-cont {
+  padding: 2em 0em;
+}
+
+#alvarado-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#alvarado-paragraphs {
+  font-size: 0.9em;
+  padding: 1em 0em;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+#alvarado-images {
+  width: 100%;
+  padding: 1em 0em;
+}
+
+#alvarado-button {
+  background-color: $buttonGreen;
+  color: $sugarWhite;
+  padding: 1em 2em;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 1em;
+}
+
+#alvarado-button-cont {
+  display: flex;
+  justify-content: center;
+}

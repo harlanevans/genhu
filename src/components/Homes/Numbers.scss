@@ -1,0 +1,27 @@
+@import '../../assets/Global.scss';
+
+#numbers-purp-cont {
+  // display: block;
+  background-color: $nameTag;
+  color: $sugarWhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 -2em;
+  padding: 1em 0em;
+}
+
+#numbers-grouping {
+  padding: 1em 0em;
+}
+
+#numbers-heading {
+  font-size: 3em;
+}
+
+#numbers-string {
+  font-size: 1em;
+  font-weight: 300;
+}

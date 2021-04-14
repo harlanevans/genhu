@@ -1,0 +1,24 @@
+@import "../../assets/Global.scss";
+
+#homes-header {
+  font-size: 1.5em;
+  padding-bottom: 1em;
+}
+
+#homes-maps-cont {
+  padding: 2em 0em;
+}
+
+#homes-links-cont {
+  padding-left: 2em;
+}
+
+#homes-list {
+  padding: .5em 0em;
+
+}
+
+#homes-link {
+  text-decoration: none;
+  color: $linkGreen;
+}
