@@ -41,7 +41,13 @@ const Navbar = () => {
             >
               Homes & Projects
             </NavLink>
-            {/* <a>Contact Us</a> */}
+            <NavLink
+              to="/contact"
+              id="nav-link"
+              onClick={() => toggled()}
+            >
+              Contact Us
+            </NavLink>
           </div>
         </div>
       </Fade>

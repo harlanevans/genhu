@@ -1,0 +1,12 @@
+@import '../../assets/Global.scss';
+
+.contact-body {
+  font-size: 1em;
+  line-height: 2em;
+  font-weight: 300;
+  padding: 2em 0em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}

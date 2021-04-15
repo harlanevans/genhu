@@ -73,9 +73,74 @@ nav, #main-nav {
 // tablet breakpoint
 @media screen and (min-width: $tablet ) {
   
-  nav {
-    background-color: red;
-  }
+  nav, #main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // padding: 1.25em;
+  // border-bottom: solid 1px $grayNurse;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: $sugarWhite;
+  overflow: hidden;
+  z-index: 100;
+}
+
+#nav-logo, #nav-dropdown {
+  padding: 1em 1em;
+  width: 15%;
+}
+
+#nav-logo-cont {
+  text-align: left;
+}
+#nav-menu-cont {
+  text-align: right;
+}
+
+#nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+  #nav-menu {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  color: white;
+  background-color: rgba(60, 102, 103, .95);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+}
+
+.menu-content > a {
+  font-size: 2em;
+  padding: .5em 0em;
+}
+
+#close-icon {
+  width: 10%;
+  padding: 1em;
+}
+
+#close-icon-cont {
+  display: flex;
+  flex-direction: row-reverse;
+}
 
 }
 // window breakpoint
