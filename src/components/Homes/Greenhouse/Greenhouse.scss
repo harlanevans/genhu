@@ -1,0 +1,66 @@
+@import "../../../assets/Global.scss";
+
+#greenhouse-header {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+#greenhouse-names {
+  font-weight: 400;
+  font-size: 1.25em;
+  padding: 0.5em 0em;
+}
+
+#greenhouse-titles {
+  font-weight: 400;
+  font-size: 0.75em;
+}
+
+#greenhouse-sections {
+  padding: 1em 0em;
+}
+
+#greenhouse-list {
+  padding: 0.5em 0em;
+  margin-left: 1em;
+}
+
+#greenhouse-link {
+  text-decoration: none;
+  color: $linkGreen;
+}
+#greenhouse-maps-cont {
+  padding: 2em 0em;
+}
+
+#greenhouse-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#greenhouse-paragraphs {
+  font-size: 0.9em;
+  padding: 1em 0em;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+#greenhouse-images {
+  width: 100%;
+  padding: 1em 0em;
+}
+
+#greenhouse-button {
+  background-color: $buttonGreen;
+  color: $sugarWhite;
+  padding: 1em 2em;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 1em;
+}
+
+#greenhouse-button-cont {
+  display: flex;
+  justify-content: center;
+}

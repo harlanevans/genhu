@@ -14,6 +14,8 @@ import Anta from "./components/Homes/Anta/Anta";
 import Alvarado from "./components/Homes/Alvarado/Alvarado";
 import AzulWasi from "./components/Homes/AzulWasi/AzulWasi";
 import Ricaurte from "./components/Homes/Ibague-Ricaurte/Ricaurte";
+import SanJose from "./components/Homes/Ibague-SanJose/SanJose";
+import Greenhouse from "./components/Homes/Greenhouse/Greenhouse";
 
 const App = () => {
   return (
@@ -32,7 +34,21 @@ const App = () => {
             <Route exact path="/homes&projects/anta" component={Anta} />
             <Route exact path="/homes&projects/alvarado" component={Alvarado} />
             <Route exact path="/homes&projects/azulwasi" component={AzulWasi} />
-            <Route exact path="/homes&projects/ibague/ricaurte" component={Ricaurte} />
+            <Route
+              exact
+              path="/homes&projects/ibague/ricaurte"
+              component={Ricaurte}
+            />
+            <Route
+              exact
+              path="/homes&projects/ibague/sanjose"
+              component={SanJose}
+            />
+            <Route
+              exact
+              path="/homes&projects/greenhouse-hydroponics"
+              component={Greenhouse}
+            />
           </div>
         </Switch>
       </ScrollToTop>
