@@ -4,7 +4,7 @@ import './Learn.scss';
 const Learn = () => {
 
   return (
-    <section>
+    <section id='learn-section'>
       <h1 id='header-learn-more'>
       Learn More About Generations Humanitarian
       </h1>

@@ -1,8 +1,12 @@
-@import '../../../assets/Global.scss';
+@import "../../../assets/Global.scss";
 
 #success-page {
-  background: rgb(178,112,109);
-  background: linear-gradient(180deg, rgba(178,112,109,1) 0%, rgba(170,138,155,1) 100%);
+  background: rgb(178, 112, 109);
+  background: linear-gradient(
+    180deg,
+    rgba(178, 112, 109, 1) 0%,
+    rgba(170, 138, 155, 1) 100%
+  );
   color: $sugarWhite;
   height: 100%;
   padding: 2em 0em;
@@ -10,20 +14,20 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  text-align:center;
+  text-align: center;
   width: 100%;
 }
 
 #success-header {
   font-size: $headerSize;
-  padding: .5em 0em;
+  padding: 0.5em 0em;
 }
 
 #success-subheader {
   border-top: solid 1px $sugarWhite;
-  padding-top: .5em;
+  padding-top: 0.5em;
   font-size: 1.25em;
-  letter-spacing: .15em;
+  letter-spacing: 0.15em;
 }
 
 .number-cont {
@@ -32,12 +36,128 @@
 
 .number-counter {
   font-size: 2.5em;
-  letter-spacing: .10em;
+  letter-spacing: 0.1em;
 }
 
 .number-label {
-  font-size: .75em;
-  letter-spacing: .25em;
+  font-size: 0.75em;
+  letter-spacing: 0.25em;
   font-weight: 300;
 }
 
+// tablet breakpoint
+@media screen and (min-width: $tablet) {
+
+  #success-page {
+    background: rgb(178, 112, 109);
+    background: linear-gradient(
+      180deg,
+      rgba(178, 112, 109, 1) 0%,
+      rgba(170, 138, 155, 1) 100%
+    );
+    color: $sugarWhite;
+    height: 100%;
+    padding: 4em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .padding {
+    padding: 0em .15em;
+  }
+
+  #success-header {
+    font-size: $headerSize;
+    padding: 0.5em 0em;
+  }
+
+  #success-subheader {
+    display: flex;
+    flex-direction: row;
+    border-top: solid 1px $sugarWhite;
+    padding-top: 0.5em;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+  }
+
+  .number-cont {
+    padding: 1.5em 0em;
+  }
+
+  .number-counter {
+    font-size: 3em;
+    letter-spacing: 0.1em;
+  }
+
+  .number-label {
+    font-size: 1em;
+    letter-spacing: 0.15em;
+    font-weight: 300;
+  }
+}
+// window breakpoint
+@media screen and (min-width: $window) {
+
+  #success-page {
+    background: rgb(178, 112, 109);
+    background: linear-gradient(
+      180deg,
+      rgba(178, 112, 109, 1) 0%,
+      rgba(170, 138, 155, 1) 100%
+    );
+    color: $sugarWhite;
+    height: 100%;
+    padding: 4em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .padding {
+    padding: 0em .15em;
+  }
+
+  #success-header {
+    font-size: $headerSize;
+    padding: 0.5em 0em;
+  }
+
+  #success-subheader {
+    display: flex;
+    flex-direction: row;
+    border-top: solid 1px $sugarWhite;
+    padding-top: 0.5em;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+  }
+
+  .number-cont {
+    padding: 1.5em 0em;
+    flex: 1 1 25em;
+  }
+
+  .number-counter {
+    font-size: 3em;
+    letter-spacing: 0.1em;
+  }
+
+  .number-label {
+    font-size: 1em;
+    letter-spacing: 0.15em;
+    font-weight: 300;
+  }
+
+  #number-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+
+}

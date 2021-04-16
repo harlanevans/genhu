@@ -1,4 +1,4 @@
-@import '../../assets/Global.scss';
+@import "../../assets/Global.scss";
 
 #numbers-purp-cont {
   // display: block;
@@ -9,8 +9,9 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 0 -2em;
+  margin: 0 0em;
   padding: 1em 0em;
+  width: 100%;
 }
 
 #numbers-grouping {
@@ -25,3 +26,44 @@
   font-size: 1em;
   font-weight: 300;
 }
+
+// tablet breakpoint
+@media screen and (min-width: $tablet) {
+  #numbers-purp-cont {
+    // display: block;
+    background-color: $nameTag;
+    color: $sugarWhite;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0em;
+    padding: 2em 0em;
+    width: 100%;
+  }
+
+  #numbers-grouping {
+    // padding: 2em;
+    // width: 1em;
+  }
+
+  #numbers-purp-cont > div {
+    flex: 0 0 18em;
+    margin: 0em;
+  }
+
+  #numbers-heading {
+    font-size: 3em;
+  }
+
+  #numbers-string {
+    font-size: 1em;
+    font-weight: 300;
+  }
+}
+// window breakpoint
+// @media screen and (min-width: $window) {
+
+//   body {
+//     background-color: green;
+//   }
+
+// }

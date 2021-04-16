@@ -1,4 +1,12 @@
-@import '../../../assets/Global.scss';
+@import "../../../assets/Global.scss";
+
+#staff-main {
+  padding: 6em 2em 0em;
+}
+
+#staff-main-header {
+    font-size: 1.75em;
+  }
 
 #staff-section {
   padding: 1.5em 0em;
@@ -24,27 +32,152 @@
 }
 
 #staff-imgHolder {
-    position: relative;
+  position: relative;
 }
 #staff-imgHolder span {
+  position: absolute;
+  background-color: $nameTag;
+  color: $sugarWhite;
+  left: 0px;
+  padding: 0.25em 0.5em;
+  bottom: 60px;
+  font-weight: 400;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+}
+
+#staff-imgHolder div {
+  position: absolute;
+  background-color: $sugarWhite;
+  left: 0px;
+  padding: 0.25em 0.5em;
+  bottom: 34px;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+// tablet breakpoint
+@media screen and (min-width: $tablet) {
+  #staff-main {
+    padding: 6em 1em 0em;
+  }
+
+  #staff-main-header {
+    font-size: 2em;
+  }
+
+  #staff-section {
+    padding: 1.75em 0em;
+    border-bottom: solid 1px gray;
+    z-index: -100;
+  }
+
+  #staff-header {
+    font-size: 1.75em;
+    padding-bottom: 1em;
+  }
+
+  #staff-img-cont {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  #staff-img {
+    width: 300px;
+    margin: 1em 1em;
+    height: 300px;
+    filter: grayscale(100%);
+  }
+
+  #staff-imgHolder {
+    position: relative;
+  }
+  #staff-imgHolder span {
     position: absolute;
     background-color: $nameTag;
     color: $sugarWhite;
-    left: 0px;
-    padding: .25em .5em;
+    left: 16px;
+    padding: 0.25em 0.5em;
     bottom: 60px;
     font-weight: 400;
     font-size: 1em;
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
   }
-  
+
   #staff-imgHolder div {
     position: absolute;
     background-color: $sugarWhite;
-    left: 0px;
-    padding: .25em .5em;
+    left: 16px;
+    padding: 0.25em 0.5em;
     bottom: 34px;
     font-weight: 400;
-    font-size: .9em;
-    
+    font-size: 0.9em;
+  }
+}
+// window breakpoint
+@media screen and (min-width: $window) {
+
+  #staff-main {
+    padding: 6em 3em 0em;
+  }
+
+  #staff-main-header {
+    font-size: 2em;
+  }
+
+  #staff-section {
+    padding: 1.75em 0em;
+    border-bottom: solid 1px gray;
+    z-index: -100;
+  }
+
+  #staff-header {
+    font-size: 1.75em;
+    padding-bottom: 1em;
+  }
+
+  #staff-img-cont {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+
+  #staff-img {
+    width: 300px;
+    // margin: 1em 1em;
+    height: 300px;
+    filter: grayscale(100%);
+  }
+
+  #staff-imgHolder {
+    position: relative;
+    // border: solid 3px blue;
+    // width: 100%;
+    flex: 1 1 20%;
+    // display: flex;
+    // justify-content: center;
+  }
+
+  #staff-imgHolder span {
+    position: absolute;
+    background-color: $nameTag;
+    color: $sugarWhite;
+    left: 16px;
+    padding: 0.25em 0.5em;
+    bottom: 60px;
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+  }
+
+  #staff-imgHolder div {
+    position: absolute;
+    background-color: $sugarWhite;
+    left: 16px;
+    padding: 0.25em 0.5em;
+    bottom: 34px;
+    font-weight: 400;
+    font-size: 0.9em;
+  }
+
 }

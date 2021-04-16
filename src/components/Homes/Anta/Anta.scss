@@ -1,10 +1,25 @@
 @import "../../../assets/Global.scss";
 
+
+#anta-main {
+  padding: 6em 0em 0em;
+}
+
+#anta-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0em 2em;
+}
+
 #anta-header {
   font-weight: 400;
   font-size: 2em;
 }
 
+#about-anta {
+  padding: 2em;
+}
 #anta-names {
   font-weight: 400;
   font-size: 1.25em;
@@ -24,11 +39,6 @@
   padding: 2em 0em;
 }
 
-#anta-cont {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
 #anta-paragraphs {
   font-size: 0.9em;
@@ -54,4 +64,162 @@
 #anta-button-cont {
   display: flex;
   justify-content: center;
+}
+
+
+// tablet breakpoint
+@media screen and (min-width: $tablet ) {
+
+ 
+#anta-main {
+  padding: 6em 0em 0em;
+}
+
+#anta-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0em 4em;
+}
+
+#anta-header {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+#about-anta {
+  padding: 2em 4em;
+}
+#anta-names {
+  font-weight: 400;
+  font-size: 1.5em;
+  padding: 0.5em 0em;
+}
+
+#anta-titles {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+#anta-sections {
+  padding: 1em 0em;
+}
+
+#anta-maps-cont {
+  padding: 2em 0em;
+}
+
+
+#anta-paragraphs {
+  font-size: 1em;
+  padding: 1em 0em;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+#anta-images {
+  width: 100%;
+  padding: 1em 0em;
+}
+
+#anta-button {
+  background-color: $buttonGreen;
+  color: $sugarWhite;
+  padding: 1em 2em;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 1.25em;
+}
+
+#anta-button-cont {
+  display: flex;
+  justify-content: center;
+}
+
+
+}
+
+// window breakpoint
+@media screen and (min-width: $window) {
+
+  #anta-main {
+  padding: 6em 0em 0em;
+}
+
+#anta-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0em 0em;
+  width: 100%;
+}
+
+#anta-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#anta-header {
+  font-weight: 400;
+  font-size: 2.5em;
+}
+
+#about-anta {
+  padding: 2em 6em;
+}
+#anta-names {
+  font-weight: 400;
+  font-size: 1.5em;
+  padding: 0.5em 0em;
+}
+
+#anta-titles {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+#anta-sections {
+  padding: 1em 0em;
+}
+
+#anta-maps-cont {
+  width: 50%;
+  padding: 2em 0em;
+}
+
+
+#anta-paragraphs {
+  font-size: 1em;
+  padding: 1em 0em;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+#anta-image-cont {
+  display: flex;
+  justify-content: center;
+}
+
+#anta-images {
+  width: 66%;
+  padding: 1em 0em;
+}
+
+#anta-button {
+  background-color: $buttonGreen;
+  color: $sugarWhite;
+  padding: 1em 2em;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 1.25em;
+}
+
+#anta-button-cont {
+  display: flex;
+  justify-content: center;
+}
+
+
+
 }

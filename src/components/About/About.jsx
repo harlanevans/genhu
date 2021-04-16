@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const About = () => {
   return (
-    <section style={{ paddingTop: "6em" }}>
+    <section id='about-main'>
       <header id="about-headers">
         <h2>About Us</h2>
       </header>

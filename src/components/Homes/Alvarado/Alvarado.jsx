@@ -14,26 +14,28 @@ const Alvarado = () => {
   };
 
   return (
-    <section style={{ paddingTop: "6em" }}>
+    <section id="alvarado-main">
       <section id="alvarado-cont">
-        <header>
-          <h1 id="alvarado-header">Alvarado Drop-In Center</h1>
-        </header>
-        <section id="alvarado-sections">
-          <h3 id="alvarado-names">Jose Santos</h3>
-          <p id="alvarado-titles">
-            <i>Director</i>
-          </p>
+        <div id="alvarado-content">
+          <header>
+            <h1 id="alvarado-header">Alvarado Drop-In Center</h1>
+          </header>
+          <section id="alvarado-sections">
+            <h3 id="alvarado-names">Jose Santos</h3>
+            <p id="alvarado-titles">
+              <i>Director</i>
+            </p>
+          </section>
+          <section id="alvarado-sections">
+            <h3 id="alvarado-names">Reid Moon</h3>
+            <p id="alvarado-titles">
+              <i>Center Sponsor</i>
+            </p>
+          </section>
+        </div>
+        <section id="alvarado-maps-cont">
+          <GoogleMaps center={location} />
         </section>
-        <section id="alvarado-sections">
-          <h3 id="alvarado-names">Reid Moon</h3>
-          <p id="alvarado-titles">
-            <i>Center Sponsor</i>
-          </p>
-        </section>
-      </section>
-      <section id="alvarado-maps-cont">
-        <GoogleMaps center={location} />
       </section>
       <Numbers
         firstNumber={32}
@@ -58,11 +60,11 @@ const Alvarado = () => {
 export default Alvarado;
 
 const AboutAlvarado = () => (
-  <section style={{ paddingTop: "2em" }}>
+  <section id="about-alvarado">
     <header>
       <h3 id="alvarado-names">About Alvarado Drop-In Center</h3>
     </header>
-    <p style={{padding: '2em 0em'}}>Coming Soon...</p>
+    <p style={{ padding: "2em 0em" }}>Coming Soon...</p>
     {/* <p id="alvarado-paragraphs">
       Just 45 minutes west of Cusco, the alvarado home is snuggled against a
       hillside in the town of Izcuchaca. Founded by a Catholic nun decades ago,

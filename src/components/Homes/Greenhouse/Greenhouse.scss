@@ -1,0 +1,222 @@
+@import "../../../assets/Global.scss";
+
+#greenhouse-header {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+#greenhouse-main {
+  padding: 6em 2em 0em;
+}
+
+#greenhouse-sections {
+  padding: 1em 0em;
+}
+
+#greenhouse-list {
+  padding: 0.5em 0em;
+  margin-left: 1em;
+}
+
+#greenhouse-link {
+  text-decoration: none;
+  color: $linkGreen;
+}
+#greenhouse-maps-cont {
+  padding: 2em 0em;
+}
+
+#greenhouse-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#greenhouse-paragraphs {
+  font-size: 0.9em;
+  padding: 1em 0em;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+#greenhouse-images {
+  width: 100%;
+  padding: 1em 0em;
+}
+#greenhouse-images-jaime {
+  width: 100%;
+  padding: 1em 0em;
+}
+
+#greenhouse-images-blue-print {
+  width: 50%;
+  padding: 1em 0em;
+}
+
+#greenhouse-button {
+  background-color: $buttonGreen;
+  color: $sugarWhite;
+  padding: 1em 2em;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 1em;
+}
+
+#greenhouse-button-cont {
+  display: flex;
+  justify-content: center;
+}
+
+// tablet breakpoint
+@media screen and (min-width: $tablet ) {
+  
+  #greenhouse-main {
+  padding: 6em 4em 0em;
+}
+  
+#greenhouse-header {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+#greenhouse-sections {
+  padding: 1em 0em;
+}
+
+#greenhouse-list {
+  padding: 0.5em 0em;
+  margin-left: 1em;
+}
+
+#greenhouse-link {
+  text-decoration: none;
+  color: $linkGreen;
+}
+#greenhouse-maps-cont {
+  padding: 2em 0em;
+}
+
+#greenhouse-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#greenhouse-paragraphs {
+  font-size: 1em;
+  padding: 1em 0em;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+#greenhouse-images {
+  width: 100%;
+  padding: 1em 0em;
+}
+#greenhouse-images-jaime {
+  width: 100%;
+  padding: 1em 0em;
+}
+
+#greenhouse-images-blue-print {
+  width: 50%;
+  padding: 1em 0em;
+}
+
+#greenhouse-button {
+  background-color: $buttonGreen;
+  color: $sugarWhite;
+  padding: 1em 2em;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 1em;
+}
+
+#greenhouse-button-cont {
+  display: flex;
+  justify-content: center;
+}
+
+}
+// window breakpoint
+@media screen and (min-width: $window) {
+
+    #greenhouse-main {
+  padding: 6em 6em 0em;
+}
+  
+#greenhouse-header {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+#greenhouse-sections {
+  padding: 1em 0em;
+}
+
+#greenhouse-list {
+  padding: 0.5em 0em;
+  margin-left: 1em;
+}
+
+#greenhouse-link {
+  text-decoration: none;
+  color: $linkGreen;
+}
+#greenhouse-maps-cont {
+  padding: 2em 0em;
+}
+
+#greenhouse-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#greenhouse-paragraphs {
+  font-size: 1em;
+  padding: 1em 0em;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+#greenhouse-image-cont {
+  display: flex;
+  justify-content: center;
+}
+
+#greenhouse-images {
+  width: 66%;
+  padding: 1em 0em;
+}
+#greenhouse-images-jaime {
+  width: 33%;
+  padding: 1em 0em;
+}
+#greenhouse-images-blue-print {
+  width: 33%;
+  padding: 1em 0em;
+}
+
+#greenhouse-button {
+  background-color: $buttonGreen;
+  color: $sugarWhite;
+  padding: 1em 2em;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 1em;
+}
+
+#greenhouse-button-cont {
+  display: flex;
+  justify-content: center;
+}
+
+#greenhouse-blueprint-img-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+}

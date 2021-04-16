@@ -14,26 +14,28 @@ const Anta = () => {
   };
 
   return (
-    <section style={{ paddingTop: "6em" }}>
+    <section id="anta-main">
       <section id="anta-cont">
-        <header>
-          <h1 id="anta-header">Anta Home</h1>
-        </header>
-        <section id="anta-sections">
-          <h3 id="anta-names">Yanina Cisneros Zegarra</h3>
-          <p id="anta-titles">
-            <i>Director</i>
-          </p>
+        <div id="anta-content">
+          <header>
+            <h1 id="anta-header">Anta Home</h1>
+          </header>
+          <section id="anta-sections">
+            <h3 id="anta-names">Yanina Cisneros Zegarra</h3>
+            <p id="anta-titles">
+              <i>Director</i>
+            </p>
+          </section>
+          <section id="anta-sections">
+            <h3 id="anta-names">Barry and Kathy Rudd</h3>
+            <p id="anta-titles">
+              <i>Home Sponsor</i>
+            </p>
+          </section>
+        </div>
+        <section id="anta-maps-cont">
+          <GoogleMaps center={location} />
         </section>
-        <section id="anta-sections">
-          <h3 id="anta-names">Barry and Kathy Rudd</h3>
-          <p id="anta-titles">
-            <i>Home Sponsor</i>
-          </p>
-        </section>
-      </section>
-      <section id="anta-maps-cont">
-        <GoogleMaps center={location} />
       </section>
       <Numbers
         firstNumber={11}
@@ -58,7 +60,7 @@ const Anta = () => {
 export default Anta;
 
 const AboutAnta = () => (
-  <section style={{ paddingTop: "2em" }}>
+  <section id="about-anta">
     <header>
       <h3 id="anta-names">About Anta Home</h3>
     </header>
@@ -89,13 +91,13 @@ const AboutAnta = () => (
       such as making pottery and ceramics, and university scholarships.
     </p>
     <section style={{ padding: "2em 0em" }}>
-      <div>
+      <div id="anta-image-cont">
         <img id="anta-images" src={AntaGirls} alt="anta-girls" />
       </div>
-      <div>
+      <div id="anta-image-cont">
         <img id="anta-images" src={AntaGroup} alt="anta-group" />
       </div>
-      <div>
+      <div id="anta-image-cont">
         <img id="anta-images" src={MakeupGirls} alt="anta-makeup girls" />
       </div>
     </section>

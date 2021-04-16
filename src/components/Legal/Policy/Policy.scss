@@ -1,5 +1,9 @@
 @import "../../../assets/Global.scss";
 
+#policy-main {
+  padding: 6em 2em 0em;
+}
+
 #policy-page-segment {
   margin: 1em 0em;
   padding: 2em 0em;
@@ -30,3 +34,52 @@
   color: $linkGreen;
   text-decoration: none;
 }
+
+// tablet breakpoint
+@media screen and (min-width: $tablet ) {
+  
+
+  #policy-main {
+  padding: 6em 4em 0em;
+}
+
+  #policy-page-segment {
+  margin: 1em 0em;
+  padding: 2em 0em;
+  border-bottom: solid 1px gray;
+}
+
+#policy-header {
+  font-size: 1.5em;
+}
+
+#policy-h3 {
+  padding: 1em 0em;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+#policy-ul {
+  padding: 1em 2em;
+}
+#policy-li {
+  padding: .5em 0em;
+}
+#policy-paragraph {
+  font-weight: 300;
+}
+
+#policy-a {
+  color: $linkGreen;
+  text-decoration: none;
+}
+
+}
+// window breakpoint
+// @media screen and (min-width: $window) {
+
+//   body {
+//     background-color: green;
+//   }
+
+// }

@@ -1,5 +1,9 @@
 @import "../../../assets/Global.scss";
 
+#privacy-main {
+  padding: 6em 2em 0em;
+}
+
 #privacy-section {
   padding: 1em 0em;
 }
@@ -14,3 +18,33 @@
   padding: 1em 2em;
 }
 
+// tablet breakpoint
+@media screen and (min-width: $tablet ) {
+
+  #privacy-main {
+    padding: 6em 4em 0em;
+  }
+  
+  #privacy-section {
+    padding: 1em 0em;
+  }
+  
+  #privacy-paragraphs {
+    padding: 1em 0em;
+    line-height: 1.75em;
+    font-weight: 300;
+  }
+  
+  #privacy-ul {
+    padding: 1em 2em;
+  }
+
+}
+// window breakpoint
+// @media screen and (min-width: $window) {
+
+//   body {
+//     background-color: green;
+//   }
+
+// }

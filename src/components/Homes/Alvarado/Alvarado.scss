@@ -1,10 +1,25 @@
 @import "../../../assets/Global.scss";
 
+
+#alvarado-main {
+  padding: 6em 0em 0em;
+}
+
+#alvarado-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0em 2em;
+}
+
 #alvarado-header {
   font-weight: 400;
   font-size: 2em;
 }
 
+#about-alvarado {
+  padding: 2em;
+}
 #alvarado-names {
   font-weight: 400;
   font-size: 1.25em;
@@ -24,11 +39,6 @@
   padding: 2em 0em;
 }
 
-#alvarado-cont {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
 #alvarado-paragraphs {
   font-size: 0.9em;
@@ -54,4 +64,152 @@
 #alvarado-button-cont {
   display: flex;
   justify-content: center;
+}
+
+
+// tablet breakpoint
+@media screen and (min-width: $tablet ) {
+
+ 
+#alvarado-main {
+  padding: 6em 0em 0em;
+}
+
+#alvarado-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0em 4em;
+}
+
+#alvarado-header {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+#about-alvarado {
+  padding: 2em 4em;
+}
+#alvarado-names {
+  font-weight: 400;
+  font-size: 1.5em;
+  padding: 0.5em 0em;
+}
+
+#alvarado-titles {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+#alvarado-sections {
+  padding: 1em 0em;
+}
+
+#alvarado-maps-cont {
+  padding: 2em 0em;
+}
+
+
+#alvarado-paragraphs {
+  font-size: 1em;
+  padding: 1em 0em;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+#alvarado-images {
+  width: 100%;
+  padding: 1em 0em;
+}
+
+#alvarado-button {
+  background-color: $buttonGreen;
+  color: $sugarWhite;
+  padding: 1em 2em;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 1.25em;
+}
+
+#alvarado-button-cont {
+  display: flex;
+  justify-content: center;
+}
+
+
+}
+// window breakpoint
+@media screen and (min-width: $window) {
+
+#alvarado-main {
+  padding: 6em 0em 0em;
+}
+
+#alvarado-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0em 4em;
+}
+#alvarado-content {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#alvarado-header {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+#about-alvarado {
+  padding: 2em 4em;
+}
+#alvarado-names {
+  font-weight: 400;
+  font-size: 1.5em;
+  padding: 0.5em 0em;
+}
+
+#alvarado-titles {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+#alvarado-sections {
+  padding: 1em 0em;
+}
+
+#alvarado-maps-cont {
+  width: 50%;
+  padding: 2em 0em;
+}
+
+
+#alvarado-paragraphs {
+  font-size: 1em;
+  padding: 1em 0em;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+#alvarado-images {
+  width: 100%;
+  padding: 1em 0em;
+}
+
+#alvarado-button {
+  background-color: $buttonGreen;
+  color: $sugarWhite;
+  padding: 1em 2em;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 1.25em;
+}
+
+#alvarado-button-cont {
+  display: flex;
+  justify-content: center;
+}
+
 }

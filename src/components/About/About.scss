@@ -1,5 +1,9 @@
 @import "../../assets/Global.scss";
 
+#about-main {
+  padding: 6em 2em 0em;
+}
+
 #about-section {
   padding: 1.5em 0em;
   border-bottom: solid 1px gray;
@@ -42,4 +46,111 @@
   display: flex;
   justify-content: center;
   padding: 2em 0em 1em;
+}
+
+// tablet breakpoint
+@media screen and (min-width: $tablet ) {
+  
+  #about-main {
+  padding: 6em 4em 0em;
+}
+
+#about-section {
+  padding: 1.5em 0em;
+  border-bottom: solid 1px gray;
+}
+
+#about-headers {
+  font-size: 1.25em;
+  padding: .75em 0em;
+}
+
+#about-p {
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+#about-staff-btn {
+  background-color: $buttonGreen;
+  color: $sugarWhite;
+  padding: 1em 2em;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 1.25em;
+}
+
+#about-list {
+  font-weight: 300;
+  padding: 1em 1em 1em 2em;
+}
+
+#about-li {
+  padding: 0.25em 0em;
+}
+
+#about-link {
+  text-decoration: none;
+  color: $linkGreen;
+}
+
+#about-button-cont {
+  display: flex;
+  justify-content: center;
+  padding: 2em 0em 1em;
+}
+
+}
+// window breakpoint
+@media screen and (min-width: $window) {
+
+   #about-main {
+  padding: 6em 8em 0em;
+}
+
+#about-section {
+  padding: 1.5em 0em;
+  border-bottom: solid 1px gray;
+}
+
+#about-headers {
+  font-size: 1.25em;
+  padding: .75em 0em;
+}
+
+#about-p {
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+#about-staff-btn {
+  background-color: $buttonGreen;
+  color: $sugarWhite;
+  padding: 1em 2em;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 1.25em;
+}
+
+#about-list {
+  font-weight: 300;
+  padding: 1em 1em 1em 2em;
+}
+
+#about-li {
+  padding: 0.25em 0em;
+}
+
+#about-link {
+  text-decoration: none;
+  color: $linkGreen;
+}
+
+#about-button-cont {
+  display: flex;
+  justify-content: center;
+  padding: 2em 0em 1em;
+}
+
 }
