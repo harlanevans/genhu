@@ -109,12 +109,17 @@
   line-height: 2em;
 }
 
+#greenhouse-image-cont {
+  display: flex;
+  justify-content: center;
+}
+
 #greenhouse-images {
   width: 100%;
   padding: 1em 0em;
 }
 #greenhouse-images-jaime {
-  width: 100%;
+  width: 50%;
   padding: 1em 0em;
 }
 
@@ -135,6 +140,7 @@
 #greenhouse-button-cont {
   display: flex;
   justify-content: center;
+  padding: 2em 0em;
 }
 
 }

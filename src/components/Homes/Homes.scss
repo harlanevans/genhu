@@ -14,17 +14,26 @@
 }
 
 #homes-links-cont {
-  padding-left: 2em;
+}
+
+#homes-button {
+  background-color: $buttonGreen;
+  color: $sugarWhite;
+  padding: .5em 1em;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 1em;
+  margin: .5em;
 }
 
 #homes-list {
   padding: .5em 0em;
-
+  
 }
 
 #homes-link {
   text-decoration: none;
-  color: $linkGreen;
+  color: $sugarWhite;
 }
 
 // tablet breakpoint

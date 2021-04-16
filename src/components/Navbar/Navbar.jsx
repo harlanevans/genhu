@@ -19,14 +19,6 @@ const Navbar = () => {
     return (
       <Fade left>
         <div id="nav-menu">
-          <div id="close-icon-cont">
-            <img
-              src={Close}
-              onClick={() => toggled()}
-              id="close-icon"
-              alt="close-icon"
-            />
-          </div>
           <div className="menu-content">
             <NavLink to="/about" id="nav-link" onClick={() => toggled()}>
               About Us
@@ -64,7 +56,7 @@ const Navbar = () => {
         </div>
         <div id="nav-menu-cont">
           <img
-            src={Menu}
+            src={ toggleMenu ? Close : Menu }
             id="nav-dropdown"
             onClick={() => toggled()}
             alt="menu-button"

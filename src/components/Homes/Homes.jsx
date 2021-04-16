@@ -17,39 +17,30 @@ const Homes = () => {
   };
 
   return (
-    <section id='homes-main'>
+    <section id="homes-main">
       <header id="homes-header">Homes & Projects</header>
       <ul id="homes-links-cont">
-        <li id='homes-list'>
-          <Link to="/homes&projects/anta" id="homes-link">
-            Anta
-          </Link>
-        </li>
-        <li id='homes-list'>
-          <Link to="/homes&projects/alvarado" id="homes-link">
-            Alvarado
-          </Link>
-        </li>
-        <li id='homes-list'>
-          <Link to="/homes&projects/azulwasi" id="homes-link">
-            Azul Wasi
-          </Link>
-        </li>
-        <li id='homes-list'>
-          <Link to="/homes&projects/greenhouse-hydroponics" id="homes-link">
-            Greenhouse & Hydroponics
-          </Link>
-        </li>
-        <li id='homes-list'>
-          <Link to="/homes&projects/ibague/ricaurte" id="homes-link">
-            Ibague-Ricaurte
-          </Link>
-        </li>
-        <li id='homes-list'>
-          <Link to="/homes&projects/ibague/sanjose" id="homes-link">
-            Ibague-San Jose
-          </Link>
-        </li>
+        <Link to="/homes&projects/anta" id="homes-link">
+          <button id="homes-button">Anta</button>
+        </Link>
+        <Link to="/homes&projects/alvarado" id="homes-link">
+          <button id="homes-button">Alvarado</button>
+        </Link>
+        <Link to="/homes&projects/azulwasi" id="homes-link">
+          <button id="homes-button">Azul Wasi</button>
+        </Link>
+        <Link to="/homes&projects/greenhouse-hydroponics" id="homes-link">
+          <button id="homes-button">Greenhouse & Hydroponics</button>
+        </Link>
+        <Link to="/homes&projects/espinal" id="homes-link">
+          <button id="homes-button">Espinal</button>
+        </Link>
+        <Link to="/homes&projects/ibague/ricaurte" id="homes-link">
+          <button id="homes-button">Ibague-Ricaurte</button>
+        </Link>
+        <Link to="/homes&projects/ibague/sanjose" id="homes-link">
+          <button id="homes-button">Ibague-San Jose</button>
+        </Link>
       </ul>
       <section id="homes-maps-cont">
         <GoogleMaps center={center} />

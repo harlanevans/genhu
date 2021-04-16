@@ -17,6 +17,7 @@ import Ricaurte from "./components/Homes/Ibague-Ricaurte/Ricaurte";
 import SanJose from "./components/Homes/Ibague-SanJose/SanJose";
 import Greenhouse from "./components/Homes/Greenhouse/Greenhouse";
 import Contact from "./components/Contact/Contact";
+import Espinal from "./components/Homes/Espinal/Espinal";
 
 const App = () => {
   return (
@@ -25,34 +26,35 @@ const App = () => {
       <ScrollToTop>
         <Switch>
           <Route exact path="/" component={Landing} />
-            <Route exact path="/privacy" component={Privacy} />
-            <Route exact path="/policy-and-financial" component={Policy} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/our-staff" component={Staff} />
-            <Route exact path="/homes&projects" component={Homes} />
+          <Route exact path="/privacy" component={Privacy} />
+          <Route exact path="/policy-and-financial" component={Policy} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/our-staff" component={Staff} />
+          <Route exact path="/homes&projects" component={Homes} />
 
-            <Route exact path="/homes&projects/anta" component={Anta} />
-            <Route exact path="/homes&projects/alvarado" component={Alvarado} />
-            <Route exact path="/homes&projects/azulwasi" component={AzulWasi} />
-            <Route
-              exact
-              path="/homes&projects/ibague/ricaurte"
-              component={Ricaurte}
-            />
-            <Route
-              exact
-              path="/homes&projects/ibague/sanjose"
-              component={SanJose}
-            />
-            <Route
-              exact
-              path="/homes&projects/greenhouse-hydroponics"
-              component={Greenhouse}
-            />
+          <Route exact path="/homes&projects/anta" component={Anta} />
+          <Route exact path="/homes&projects/alvarado" component={Alvarado} />
+          <Route exact path="/homes&projects/azulwasi" component={AzulWasi} />
+          <Route exact path="/homes&projects/espinal" component={Espinal} />
+          <Route
+            exact
+            path="/homes&projects/ibague/ricaurte"
+            component={Ricaurte}
+          />
+          <Route
+            exact
+            path="/homes&projects/ibague/sanjose"
+            component={SanJose}
+          />
+          <Route
+            exact
+            path="/homes&projects/greenhouse-hydroponics"
+            component={Greenhouse}
+          />
         </Switch>
       </ScrollToTop>
-        <Footer />
+      <Footer />
     </>
   );
 };

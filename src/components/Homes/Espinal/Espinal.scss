@@ -1,70 +1,59 @@
 @import "../../../assets/Global.scss";
 
-#azulwasi-childname {
-  font-size: 1em;
-  font-weight: 400;
-}
-.azulwasi-list {
-  margin-left: 2em;
-}
 
-#azulwasi-main {
+#espinal-main {
   padding: 6em 0em 0em;
 }
 
-#azulwasi-cont {
+#espinal-cont {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0em 2em;
 }
 
-#azulwasi-header {
+#espinal-header {
   font-weight: 400;
   font-size: 2em;
 }
 
-#about-azulwasi {
+#about-espinal {
   padding: 2em;
 }
-#azulwasi-names {
+#espinal-names {
   font-weight: 400;
   font-size: 1.25em;
   padding: 0.5em 0em;
 }
 
-#azulwasi-titles {
+#espinal-titles {
   font-weight: 400;
   font-size: 0.75em;
 }
 
-#azulwasi-sections {
+
+#espinal-sections {
   padding: 1em 0em;
 }
 
-#azulwasi-maps-cont {
+#espinal-maps-cont {
   padding: 2em 0em;
 }
 
 
-#azulwasi-paragraphs {
+#espinal-paragraphs {
   font-size: 0.9em;
   padding: 1em 0em;
   font-weight: 300;
   line-height: 2em;
 }
 
-#azulwasi-images {
+#espinal-images {
   width: 100%;
   padding: 1em 0em;
 }
 
-#azulwasi-smaller-images {
-  width: 100%;
-  padding: 1em 0em;
-}
-
-#azulwasi-button {
+#espinal-button {
   background-color: $buttonGreen;
   color: $sugarWhite;
   padding: 1em 2em;
@@ -73,68 +62,71 @@
   font-size: 1em;
 }
 
-#azulwasi-button-cont {
+#espinal-button-cont {
   display: flex;
   justify-content: center;
 }
 
+#espinal-numbers {
+  margin: 0em 2em;
+}
 
 // tablet breakpoint
 @media screen and (min-width: $tablet ) {
-
- 
-#azulwasi-main {
-  padding: 6em 0em 0em;
-}
-
-#azulwasi-cont {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  
+  
+  #espinal-main {
+    padding: 6em 0em 0em;
+  }
+  
+  #espinal-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   padding: 0em 4em;
 }
 
-#azulwasi-header {
+#espinal-header {
   font-weight: 400;
   font-size: 2em;
 }
 
-#about-azulwasi {
+#about-espinal {
   padding: 2em 4em;
 }
-#azulwasi-names {
+#espinal-names {
   font-weight: 400;
   font-size: 1.5em;
   padding: 0.5em 0em;
 }
 
-#azulwasi-titles {
+#espinal-titles {
   font-weight: 400;
   font-size: 1em;
 }
 
-#azulwasi-sections {
+#espinal-sections {
   padding: 1em 0em;
 }
 
-#azulwasi-maps-cont {
+#espinal-maps-cont {
   padding: 2em 0em;
 }
 
 
-#azulwasi-paragraphs {
+#espinal-paragraphs {
   font-size: 1em;
   padding: 1em 0em;
   font-weight: 300;
   line-height: 2em;
 }
 
-#azulwasi-images {
+#espinal-images {
   width: 100%;
   padding: 1em 0em;
 }
 
-#azulwasi-button {
+#espinal-button {
   background-color: $buttonGreen;
   color: $sugarWhite;
   padding: 1em 2em;
@@ -143,103 +135,82 @@
   font-size: 1.25em;
 }
 
-#azulwasi-image-cont {
+#espinal-button-cont {
   display: flex;
   justify-content: center;
 }
 
-#azulwasi-button-cont {
-  display: flex;
-  justify-content: center;
-}
-#azulwasi-smaller-images {
-  width: 66%;
-  padding: 1em 0em;
-}
-
 
 }
+
 // window breakpoint
 @media screen and (min-width: $window) {
 
-   
-#azulwasi-main {
+  #espinal-main {
   padding: 6em 0em 0em;
 }
 
-#azulwasi-cont {
+#espinal-cont {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 0em 4em;
+  padding: 0em 0em;
+  width: 100%;
 }
 
-#azulwasi-content {
+#espinal-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  // padding: 0em 4em;
 }
 
-#azulwasi-header {
+#espinal-header {
   font-weight: 400;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
-#about-azulwasi {
-  padding: 2em 8em;
+#about-espinal {
+  padding: 2em 6em;
 }
-#azulwasi-names {
+#espinal-names {
   font-weight: 400;
   font-size: 1.5em;
   padding: 0.5em 0em;
 }
 
-
-
-#azulwasi-titles {
+#espinal-titles {
   font-weight: 400;
   font-size: 1em;
 }
 
-#azulwasi-sections {
+#espinal-sections {
   padding: 1em 0em;
 }
 
-#azulwasi-maps-cont {
+#espinal-maps-cont {
   width: 50%;
   padding: 2em 0em;
 }
 
 
-#azulwasi-paragraphs {
+#espinal-paragraphs {
   font-size: 1em;
   padding: 1em 0em;
   font-weight: 300;
   line-height: 2em;
-  // text-align: center;
 }
 
-#azulwasi-image-cont {
+#espinal-image-cont {
   display: flex;
   justify-content: center;
 }
 
-#azulwasi-images {
+#espinal-images {
   width: 66%;
   padding: 1em 0em;
 }
-#azulwasi-smaller-images {
-  width: 50%;
-  padding: 1em 0em;
-}
 
-#azulwasi-image-row {
-  display: flex;
-  justify-content: center;
-}
-
-#azulwasi-button {
+#espinal-button {
   background-color: $buttonGreen;
   color: $sugarWhite;
   padding: 1em 2em;
@@ -248,9 +219,11 @@
   font-size: 1.25em;
 }
 
-#azulwasi-button-cont {
+#espinal-button-cont {
   display: flex;
   justify-content: center;
 }
+
+
 
 }

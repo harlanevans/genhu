@@ -1,11 +1,16 @@
 @import "../../../assets/Global.scss";
 
+#learn-section {
+  padding: 2em;
+}
+
 #header-learn-more {
-  font-size: $headerSize;
+  font-size: 1.5em;
   font-weight: 400;
 }
 
 .learn-header {
+  font-size: 1em;
   color: $williamGreen;
   padding: 1em 0em;
 }

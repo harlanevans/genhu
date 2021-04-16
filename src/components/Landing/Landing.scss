@@ -2,14 +2,15 @@
 
 #landing-page {
   height: 80vh;
-  padding-top: 1em;
+    padding: 4em 2em 2em;
+
   // margin-top: 1em;
   border-bottom: solid 1px $grayNurse;
 }
 
 #landing-header {
   margin: 2em 0em;
-  font-size: $headerSize;
+  font-size: 2em;
   border-bottom: solid 1px $grayNurse;
 }
 

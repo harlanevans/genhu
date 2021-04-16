@@ -1,9 +1,9 @@
 @import "../../../assets/Global.scss";
 
 #proven-page {
-  padding: 2em 0em;
-  height: 80vh;
-  width: 100%;
+  padding: 2em 2em 4em;
+  height: 100%;
+  // width: 100%;
 }
 
 #proven-headers-cont {
@@ -11,13 +11,13 @@
 }
 
 #proven-headers {
-  font-size: $headerSize;
+  font-size: 2em;
   font-weight: 400;
 }
 
 #kids-explained {
   line-height: 2em;
-  font-size: $bodySize;
+  font-size: 1em;
   padding-bottom: 2em;
 }
 

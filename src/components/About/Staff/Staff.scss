@@ -22,6 +22,7 @@
 #staff-img-cont {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 #staff-img {
@@ -59,7 +60,7 @@
 // tablet breakpoint
 @media screen and (min-width: $tablet) {
   #staff-main {
-    padding: 6em 1em 0em;
+    padding: 6em 2em 0em;
   }
 
   #staff-main-header {
@@ -80,6 +81,7 @@
   #staff-img-cont {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
   }
 
   #staff-img {
