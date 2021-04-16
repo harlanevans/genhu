@@ -1,4 +1,4 @@
-@import '../../../assets/Global.scss';
+@import "../../../assets/Global.scss";
 
 #header-learn-more {
   font-size: $headerSize;
@@ -11,7 +11,7 @@
 }
 
 .learn-content {
-  font-size: .85em;
+  font-size: 0.85em;
   line-height: 2em;
   font-weight: 400;
 }
@@ -19,4 +19,71 @@
 hr {
   border: solid 1px $williamGreen;
   margin-bottom: 1em;
+}
+
+// tablet breakpoint
+@media screen and (min-width: $tablet) {
+  
+  #learn-section {
+    padding: 4em;
+  }
+
+  #header-learn-more {
+    font-size: 1.75em;
+    font-weight: 400;
+    padding-bottom: 1em;
+  }
+
+  .learn-header {
+    color: $williamGreen;
+    padding: 1em 0em;
+    font-size: 1.25em;
+  }
+
+  .learn-content {
+    font-size: 1em;
+    line-height: 2em;
+    font-weight: 400;
+  }
+
+  hr {
+    border: solid 1px $williamGreen;
+    margin-bottom: 1em;
+  }
+}
+// window breakpoint
+@media screen and (min-width: $window) {
+
+  #learn-section {
+    padding: 4em;
+  }
+
+  #learn-section > article {
+    padding: 1em 0em;
+  }
+  
+
+  #header-learn-more {
+    font-size: 1.75em;
+    font-weight: 400;
+    padding-bottom: 1em;
+  }
+
+  .learn-header {
+    color: $williamGreen;
+    padding: 1em 0em;
+    font-size: 1.25em;
+  }
+
+  .learn-content {
+    font-size: 1em;
+    line-height: 2em;
+    font-weight: 400;
+  }
+
+  hr {
+    border: solid 1px $williamGreen;
+    margin-bottom: 1em;
+  }
+
 }

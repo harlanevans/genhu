@@ -17,7 +17,7 @@ const Homes = () => {
   };
 
   return (
-    <section style={{ paddingTop: "6em" }}>
+    <section id='homes-main'>
       <header id="homes-header">Homes & Projects</header>
       <ul id="homes-links-cont">
         <li id='homes-list'>

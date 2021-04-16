@@ -12,12 +12,14 @@ import Veggies from "../../../assets/images/homes/greenhouse/Veggies.jpg";
 
 const Greenhouse = () => {
   return (
-    <section style={{ paddingTop: "6em" }}>
+    <section id='greenhouse-main'>
       <header>
-        <h1>Greenhouse and Hydroponics</h1>
+        <h1 id='greenhouse-header'>Greenhouse and Hydroponics</h1>
       </header>
       <section id="greenhouse-sections">
+        <div id='greenhouse-image-cont'>
         <img src={MainGreenhouse} id="greenhouse-images" alt="greenhouse" />
+        </div>
         <p id="greenhouse-paragraphs">
           The harsh conditions of altitude and cold in the Andean range prohibit
           the growth of certain vegetables and fruits. These are grown in warmer
@@ -57,7 +59,9 @@ const Greenhouse = () => {
             </li>
           </ul>
         </p>
-        <img src={JaimePlants} alt="jaime" id="greenhouse-images" />
+        <div id='greenhouse-image-cont'>
+        <img src={JaimePlants} alt="jaime" id="greenhouse-images-jaime" />
+        </div>
       </section>
       <section id="greenhouse-sections">
         <header>Construction Models</header>
@@ -79,7 +83,10 @@ const Greenhouse = () => {
               that counteract the UV rays, prevent fungus/mold, and for
               elasticity.
             </li>
-            <img src={ModelBluePrint} alt="blueprint" id="greenhouse-images" />
+            <div id='greenhouse-blueprint-img-cont'>
+            <img src={ModelBluePrint} alt="blueprint" id="greenhouse-images-blue-print" />
+            <img src={ModelBirdsEye} alt="diagram" id="greenhouse-images-blue-print" />
+            </div>
 
             <li id="greenhouse-list">
               Both greenhouses are the same width, but vary in length.
@@ -92,7 +99,6 @@ const Greenhouse = () => {
               We use a natural homemade fertilizer and pesticide called “Biol”
               to increase production and ensure a healthy crop.
             </li>
-            <img src={ModelBirdsEye} alt="diagram" id="greenhouse-images" />
           </ul>
           The cost of building a greenhouse is $6,000 USD. In three harvests we
           can break even on construction costs. Since these can operate year
@@ -111,13 +117,17 @@ const Greenhouse = () => {
         Ccor-Ccor.
       </p>
       <hr />
-      <section>
+      <section id='greenhouse-image-cont'>
         <img src={Construction} alt="construction" id="greenhouse-images" />
+      </section>
+      <section id='greenhouse-image-cont'>
         <img src={GreenhousePic} alt="greenhouse" id="greenhouse-images" />
       </section>
       <hr />
-      <section>
+      <section id='greenhouse-image-cont'>
         <img src={Farm} alt="farm" id="greenhouse-images" />
+      </section>
+      <section id='greenhouse-image-cont'>
         <img src={Veggies} alt="veggies" id="greenhouse-images" />
       </section>
       <div id="greenhouse-button-cont">

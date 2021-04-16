@@ -24,3 +24,68 @@
   box-shadow: 1px 1px 5px $grayNurse;
   border-radius: 3px;
 }
+
+
+
+
+// tablet breakpoint
+@media screen and (min-width: $tablet ) {
+  
+  #landing-page {
+    height: 90vh;
+    padding: 6em 4em 2em;
+    // margin-top: 1em;
+    border-bottom: solid 1px $grayNurse;
+  }
+  
+  #landing-header {
+    margin: 1em 0em;
+    padding: .5em 0em;
+    font-size: $headerSize;
+    border-bottom: solid 1px $grayNurse;
+  }
+  
+  #image-container {
+    width: 100%;
+    height: 50%;
+    padding-top: 2em;
+  }
+  
+  #kids-landing-image {
+    width: 100%;
+    box-shadow: 1px 1px 5px $grayNurse;
+    border-radius: 3px;
+  }
+
+}
+// window breakpoint
+@media screen and (min-width: $window) {
+
+  #landing-page {
+    height: 100%;
+    padding: 6em 6em 2em;
+    // margin-top: 1em;
+    border-bottom: solid 1px $grayNurse;
+  }
+  
+  #landing-header {
+    margin: 1em 0em;
+    padding: .5em 0em;
+    font-size: 2.5em;
+    border-bottom: solid 1px $grayNurse;
+  }
+  
+  #image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    padding-top: 2em;
+  }
+  
+  #kids-landing-image {
+    width: 75%;
+    box-shadow: 1px 1px 5px $grayNurse;
+    border-radius: 3px;
+  }
+}

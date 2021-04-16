@@ -8,7 +8,7 @@ footer {
   height: 100%;
 }
 
-.footer-headers {
+#footer-headers {
   font-size: .8em;
   letter-spacing: .25em;
   font-weight: 300;
@@ -41,4 +41,132 @@ footer {
 #copyright {
   font-size: .75em;
   color: gray;
+}
+
+// tablet breakpoint
+@media screen and (min-width: $tablet ) {
+  
+  footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  height: 100%;
+  padding: 2em 2em 0em;
+}
+
+
+#footer-headers {
+  font-size: 1em;
+  letter-spacing: .25em;
+  font-weight: 300;
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+  border-bottom: 1px solid gray;
+}
+
+.footer-section {
+  padding: 2em 0em;
+}
+
+.footer-body {
+  font-size: .9em;
+  line-height: 2em;
+  font-weight: 300;
+}
+
+#footer-social-icon {
+  width: 1.5em;
+  padding-right: .5em;
+}
+
+.social-icon-cont {
+    display: flex;
+    align-content: center;
+    font-weight: 400;
+}
+
+#copyright {
+  font-size: .75em;
+  color: gray;
+}
+
+}
+// window breakpoint
+@media screen and (min-width: $window) {
+
+   footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  height: 100%;
+  padding: 2em 4em 2em;
+  // width: 80%;
+}
+
+#main-footer-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2em;
+}
+
+
+#footer-headers {
+  font-size: 1em;
+  letter-spacing: .25em;
+  font-weight: 300;
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+  border: none;
+}
+
+.footer-section {
+  width: 25%;
+  padding: 2em 1em;
+  // margin: 1em;
+}
+.icon-footer-section {
+  width: 100%;
+  padding: 2em 0em;
+  // margin: 1em;
+}
+
+.footer-body {
+  font-size: .9em;
+  line-height: 1.75em;
+  font-weight: 300;
+}
+
+#footer-social-icon {
+  width: 1.5em;
+  padding-right: .5em;
+}
+
+#a-cont {
+  display: flex;
+  // flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+
+}
+
+.social-icon-cont {
+  display: flex;
+  // flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  font-weight: 400;
+  padding: .15em 0em;
+  height: 100%;
+}
+
+#copyright {
+  font-size: .75em;
+  color: gray;
+}
+
 }

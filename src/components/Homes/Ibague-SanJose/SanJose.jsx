@@ -13,8 +13,10 @@ const SanJose = () => {
   };
 
   return (
-    <section style={{ paddingTop: "6em" }}>
+    <section id='sanjose-main'>
       <section id="sanjose-cont">
+        <div id='sanjose-content'>
+
         <header>
           <h1 id="sanjose-header">Ibague-SanJose Drop-In Center</h1>
         </header>
@@ -30,9 +32,10 @@ const SanJose = () => {
             <i>Center Sponsor</i>
           </p>
         </section>
-      </section>
+        </div>
       <section id="sanjose-maps-cont">
         <GoogleMaps center={location} />
+      </section>
       </section>
       <Numbers
         firstNumber={63}
@@ -57,7 +60,7 @@ const SanJose = () => {
 export default SanJose;
 
 const AboutSanJose = () => (
-  <section style={{ paddingTop: "2em" }}>
+  <section id='about-sanjose'>
     <header>
       <h3 id="sanjose-names">About Ibague-sanjose Drop-In Center</h3>
     </header>

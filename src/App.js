@@ -25,7 +25,6 @@ const App = () => {
       <ScrollToTop>
         <Switch>
           <Route exact path="/" component={Landing} />
-          <div style={styles.sectionPadding}>
             <Route exact path="/privacy" component={Privacy} />
             <Route exact path="/policy-and-financial" component={Policy} />
             <Route exact path="/about" component={About} />
@@ -51,20 +50,11 @@ const App = () => {
               path="/homes&projects/greenhouse-hydroponics"
               component={Greenhouse}
             />
-          </div>
         </Switch>
       </ScrollToTop>
-      <section style={styles.sectionPadding}>
         <Footer />
-      </section>
     </>
   );
 };
 
 export default App;
-
-const styles = {
-  sectionPadding: {
-    padding: "2em 2em",
-  },
-};

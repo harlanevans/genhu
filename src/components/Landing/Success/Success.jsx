@@ -9,11 +9,11 @@ const Success = () => {
     <section id="success-page">
       <header id="success-header">SUCCESS</header>
       <section id="success-subheader">
-        <p>Since 2008.</p>
-        <p>You have cared.</p>
-        <p>We did the math.</p>
+        <p className='padding'>Since 2008.</p>
+        <p className='padding'>You have cared.</p>
+        <p className='padding'>We did the math.</p>
       </section>
-      <section>
+      <section id='number-flex'>
         <Fade cascade duration={3000} wait={1000}>
           <div className="number-cont">
             <h3 className="number-counter" id="current-children">

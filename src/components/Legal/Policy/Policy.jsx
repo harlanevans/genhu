@@ -3,7 +3,7 @@ import './Policy.scss';
 
 const Policy = () => {
   return (
-    <section style={{ paddingTop: "6em",  }}>
+    <section id='policy-main'>
       <header>
         <h1 id='policy-header'>Policy and Financial</h1>
       </header>

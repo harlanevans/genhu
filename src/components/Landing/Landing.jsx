@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade } from 'react-reveal'
+import { Fade } from "react-reveal";
 import "./Landing.scss";
 import LandingKids from "../../assets/images/KidsLanding.jpg";
 
@@ -12,39 +12,28 @@ import Stages from "./Stages/Stages";
 const Landing = () => {
   return (
     <>
-      <section id="landing-page" style={styles.sectionPadding}>
-        <h1 id="landing-header">Generations Humanitarian</h1>
-        <div id="image-container">
-          <img
-            alt="Espinal Happy and Smiling Kids"
-            src={LandingKids}
-            id="kids-landing-image"
-          />
-        </div>
-      </section>
-      <section style={styles.sectionPadding}>
+      <Fade>
+        <HeroPage />
         <ProvenPage />
-      </section>
-      <section>
-        <Fade ssrFadeout>
-          <Success />
-        </Fade>
-        <section style={styles.sectionPadding}>
-          <Learn />
-        </section>
-        <section style={styles.sectionPadding}>
-          <Stages />
-        </section>
-        
-      </section>
+        <Success />
+        <Learn />
+        <Stages />
+      </Fade>
     </>
   );
 };
 
 export default Landing;
 
-const styles = {
-  sectionPadding: {
-    padding: "2em 2em",
-  },
-};
+const HeroPage = () => (
+  <section id="landing-page">
+    <h1 id="landing-header">Generations Humanitarian</h1>
+    <div id="image-container">
+      <img
+        alt="Espinal Happy and Smiling Kids"
+        src={LandingKids}
+        id="kids-landing-image"
+      />
+    </div>
+  </section>
+);

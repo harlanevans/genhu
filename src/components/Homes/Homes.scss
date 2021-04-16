@@ -1,5 +1,9 @@
 @import "../../assets/Global.scss";
 
+#homes-main {
+  padding: 6em 2em 0em;
+}
+
 #homes-header {
   font-size: 1.5em;
   padding-bottom: 1em;
@@ -22,3 +26,44 @@
   text-decoration: none;
   color: $linkGreen;
 }
+
+// tablet breakpoint
+@media screen and (min-width: $tablet ) {
+  
+  #homes-main {
+  padding: 6em 4em 0em;
+}
+
+#homes-header {
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+
+#homes-maps-cont {
+  padding: 2em 0em;
+}
+
+#homes-links-cont {
+  padding-left: 2em;
+}
+
+#homes-list {
+  padding: .5em 0em;
+
+}
+
+#homes-link {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: $linkGreen;
+}
+
+}
+// window breakpoint
+// @media screen and (min-width: $window) {
+
+//   body {
+//     background-color: green;
+//   }
+
+// }

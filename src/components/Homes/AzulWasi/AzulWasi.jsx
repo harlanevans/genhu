@@ -2,10 +2,10 @@ import React from "react";
 import "./AzulWasi.scss";
 import GoogleMaps from "../GoogleMaps/GoogleMaps";
 import Numbers from "../Numbers";
-import Dorms from '../../../assets/images/homes/azulwasi/AWDorm.jpeg'
-import Carmen from '../../../assets/images/homes/azulwasi/Carmen.jpeg'
-import Coats from '../../../assets/images/homes/azulwasi/ChildrenCoats.jpeg'
-import Smiling from '../../../assets/images/homes/azulwasi/ManAndChild.jpeg'
+import Dorms from "../../../assets/images/homes/azulwasi/AWDorm.jpeg";
+import Carmen from "../../../assets/images/homes/azulwasi/Carmen.jpeg";
+import Coats from "../../../assets/images/homes/azulwasi/ChildrenCoats.jpeg";
+import Smiling from "../../../assets/images/homes/azulwasi/ManAndChild.jpeg";
 import { Link } from "react-router-dom";
 
 const AzulWasi = () => {
@@ -15,26 +15,28 @@ const AzulWasi = () => {
   };
 
   return (
-    <section style={{ paddingTop: "6em" }}>
+    <section id="azulwasi-main">
       <section id="azulwasi-cont">
-        <header>
-          <h1 id="azulwasi-header">Azul Wasi Home</h1>
-        </header>
-        <section id="azulwasi-sections">
-          <h3 id="azulwasi-names">Alcides Jordan</h3>
-          <p id="azulwasi-titles">
-            <i>Director</i>
-          </p>
+        <div id="azulwasi-content">
+          <header>
+            <h1 id="azulwasi-header">Azul Wasi Home</h1>
+          </header>
+          <section id="azulwasi-sections">
+            <h3 id="azulwasi-names">Alcides Jordan</h3>
+            <p id="azulwasi-titles">
+              <i>Director</i>
+            </p>
+          </section>
+          <section id="azulwasi-sections">
+            <h3 id="azulwasi-names">Ron Winterton, Barry Rudd</h3>
+            <p id="azulwasi-titles">
+              <i>Home Sponsor</i>
+            </p>
+          </section>
+        </div>
+        <section id="azulwasi-maps-cont">
+          <GoogleMaps center={location} />
         </section>
-        <section id="azulwasi-sections">
-          <h3 id="azulwasi-names">Ron Winterton, Barry Rudd</h3>
-          <p id="azulwasi-titles">
-            <i>Home Sponsor</i>
-          </p>
-        </section>
-      </section>
-      <section id="azulwasi-maps-cont">
-        <GoogleMaps center={location} />
       </section>
       <Numbers
         firstNumber={22}
@@ -59,7 +61,7 @@ const AzulWasi = () => {
 export default AzulWasi;
 
 const AboutAzulWasi = () => (
-  <section style={{ paddingTop: "2em" }}>
+  <section id="about-azulwasi">
     <header>
       <h3 id="azulwasi-names">About Azul Wasi Home</h3>
     </header>
@@ -76,16 +78,16 @@ const AboutAzulWasi = () => (
     <p id="azulwasi-paragraphs">
       Home to 17 boys and 3 girls, this home has a lot of room to grow. In 2012
       we built new bathrooms, 2016 we finished the two-story dormitory as shown
-      at right.
+      below.
     </p>
-    <div>
+    <div id="azulwasi-image-cont">
       <img id="azulwasi-images" src={Dorms} alt="azulwasi-dorms" />
     </div>
-    <div>
+    <div id="azulwasi-image-cont">
       <img id="azulwasi-images" src={Coats} alt="azulwasi-coats" />
     </div>
     <p id="azulwasi-paragraphs">
-      The photo at left shows a few of the boys with their new coats. Each year
+      The photo at above shows a few of the boys with their new coats. Each year
       we buy them shoes for Christmas.
     </p>
     <p id="azulwasi-paragraphs">
@@ -101,11 +103,13 @@ const AboutAzulWasi = () => (
       dormitories, and since there is a surplus of street children in the city,
       we won’t have trouble filling them up.
     </p>
-    <div>
-      <img id="azulwasi-images" src={Smiling} alt="azulwasi-smiling" />
+    <div id='azulwasi-image-row'>
+    <div id="azulwasi-image-cont">
+      <img id="azulwasi-smaller-images" src={Smiling} alt="azulwasi-smiling" />
     </div>
-    <div>
-      <img id="azulwasi-images" src={Carmen} alt="azulwasi-carmen" />
+    <div id="azulwasi-image-cont">
+      <img id="azulwasi-smaller-images" src={Carmen} alt="azulwasi-carmen" />
+    </div>
     </div>
     {/* <section style={{ padding: "2em 0em" }}>
     </section> */}
@@ -152,12 +156,12 @@ const AboutAzulWasi = () => (
         his story.
       </p>
       <ul id="azulwasi-paragraphs">
-        <li  className="azulwasi-list">
+        <li className="azulwasi-list">
           Alfredo. Ten years old and never learned to read. He could not speak
           Spanish, only Quechua. He suffered a severe burn of boiling water over
           his body. He was a shepherd to the family’s sheep.
         </li>
-        <li  className="azulwasi-list">
+        <li className="azulwasi-list">
           Nilo. Twelve years old. He and his brother Yuliño witness the death of
           their father at a young age and felt helpless because their were no
           doctors in their community. He arrived at the home hating women
@@ -167,7 +171,7 @@ const AboutAzulWasi = () => (
           woman gave birth to him. His education level is retarded, especially
           in mathematics. He is now learning to read.
         </li>
-        <li  className="azulwasi-list">
+        <li className="azulwasi-list">
           Yuliño. Now 14 years old, at a young age he became the man of the
           house when his father died and mother abandoned them. He is advancing
           in his education.

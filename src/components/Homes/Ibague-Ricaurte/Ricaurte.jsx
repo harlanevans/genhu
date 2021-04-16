@@ -13,8 +13,10 @@ const Ricaurte = () => {
   };
 
   return (
-    <section style={{ paddingTop: "6em" }}>
+    <section id='ricaurte-main'>
       <section id="ricaurte-cont">
+        <div id='ricaurte-content'>
+
         <header>
           <h1 id="ricaurte-header">Ibague-Ricaurte Drop-In Center</h1>
         </header>
@@ -30,9 +32,10 @@ const Ricaurte = () => {
             <i>Center Sponsor</i>
           </p>
         </section>
-      </section>
+        </div>
       <section id="ricaurte-maps-cont">
         <GoogleMaps center={location} />
+      </section>
       </section>
       <Numbers
         firstNumber={80}
@@ -57,7 +60,7 @@ const Ricaurte = () => {
 export default Ricaurte;
 
 const AboutRicaurte = () => (
-  <section style={{ paddingTop: "2em" }}>
+  <section id="about-ricaurte">
     <header>
       <h3 id="ricaurte-names">About Ibague-Ricaurte Drop-In Center</h3>
     </header>
@@ -68,15 +71,13 @@ const AboutRicaurte = () => (
       home will be opened in the capital city and will start with 50 children,
       with a goal to increase to 500 children.
     </p>
-    <p id="ricaurte-paragraphs">
-     Stay tuned!
-    </p>
-    
+    <p id="ricaurte-paragraphs">Stay tuned!</p>
+
     <section style={{ padding: "2em 0em" }}>
-      <div>
+      <div id="ricaurte-image-cont">
         <img id="ricaurte-images" src={Center} alt="ricaurte-center" />
       </div>
-      <div>
+      <div id="ricaurte-image-cont">
         <img id="ricaurte-images" src={Meeting} alt="ricaurte-meeting" />
       </div>
     </section>

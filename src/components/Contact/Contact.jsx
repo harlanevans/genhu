@@ -4,7 +4,7 @@ import './Contact.scss'
 const Contact = () => {
 
   return (
-    <section style={{ paddingTop: "6em" }}>
+    <section id='contact-main'>
       <header>
         <h1>Contact Us</h1>
       </header>

@@ -43,5 +43,10 @@ $nameTag: #67385D;
 
 $font: 'Open Sans', sans-serif;
 
-$headerSize: 2em;
+$headerSize: 2.5em;
 $bodySize: 1.25em;
+
+a {
+  text-decoration: none;
+  color: $linkGreen;
+}
