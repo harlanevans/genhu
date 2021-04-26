@@ -32,14 +32,26 @@ import Blanca from "../../../assets/images/staff/volunteers/BlancaMeryCardozo.jp
 import LuzAyde from "../../../assets/images/staff/volunteers/LuzAydeCristiano.jpeg";
 import LuzDary from "../../../assets/images/staff/volunteers/LuzDaryBarragan.jpeg";
 
+
+// APRIL 21 UPDATES
+// SWITCH JAIME AND VAN IMAGES -- DONE
+// COUNTRY DIRECTORS ON FIRST LINE MANAGAMENT STAFF
+// MGMT STAFF TITLE TO COUNTRY DIRECTORS
+// ADD HOME DIRETORS TITLE
+// MISC TITLE BELOW 
+
+
+
 const Staff = () => (
   <section id="staff-main">
     <header>
       <h1 id='staff-main-header'>Our Staff</h1>
     </header>
     <Board />
-    <StaffTeam />
+    <CountryDirectors />
+    <HomeDirectors />
     <Volunteers />
+    <StaffMisc />
   </section>
 );
 
@@ -50,9 +62,9 @@ const Board = () => (
     <header id="staff-header">Board of Directors</header>
     <section id="staff-img-cont">
       <div id="staff-imgHolder">
-        <img src={Jaime} alt="JaimeFigureroa" id="staff-img" />
-        <span>Jaime Figureroa, MPA</span>
-        <div>Country Director, Peru</div>
+        <img src={Van} alt="VanEvans" id="staff-img" />
+        <span>Van Evans, PhD, LCSW</span>
+        <div>President</div>
       </div>
       <div id="staff-imgHolder">
         <img src={Lindsey} alt="LindseyZimmerman" id="staff-img" />
@@ -65,22 +77,22 @@ const Board = () => (
         <div>Treasurer</div>
       </div>
       <div id="staff-imgHolder">
-        <img src={Van} alt="VanEvans" id="staff-img" />
-        <span>Van Evans, PhD, LCSW</span>
-        <div>President</div>
+        <img src={Jaime} alt="JaimeFigureroa" id="staff-img" />
+        <span>Jaime Figureroa, MPA</span>
+        <div>Country Director, Peru</div>
       </div>
     </section>
   </section>
 );
 
-const StaffTeam = () => (
+const CountryDirectors = () => (
   <section id="staff-section">
-    <header id="staff-header">Management Staff</header>
+    <header id="staff-header">Country Directors</header>
     <section id="staff-img-cont">
       <div id="staff-imgHolder">
-        <img src={Alcides} alt="AlcidesJordan" id="staff-img" />
-        <span>Alcides Jordan</span>
-        <div>Home Director, Azul Wasi</div>
+        <img src={Jaime} alt="JaimeFigureroa" id="staff-img" />
+        <span>Jaime Figureroa, MPA</span>
+        <div>Country Director, Peru</div>
       </div>
       <div id="staff-imgHolder">
         <img src={AnaJulie} alt="AnaJuliaGiraud" id="staff-img" />
@@ -88,14 +100,21 @@ const StaffTeam = () => (
         <div>Country Director, Venezuela</div>
       </div>
       <div id="staff-imgHolder">
-        <img src={Camila} alt="CamilaMoreno" id="staff-img" />
-        <span>Camila Moreno</span>
-        <div>Public Relations</div>
+        <img src={Sandra} alt="SandraGongora" id="staff-img" />
+        <span>Sandra Gongora</span>
+        <div>Country Director, Colombia</div>
       </div>
+    </section>
+  </section>
+);
+const HomeDirectors = () => (
+  <section id="staff-section">
+    <header id="staff-header">Home Directors</header>
+    <section id="staff-img-cont">
       <div id="staff-imgHolder">
-        <img src={Christine} alt="ChristineWatts" id="staff-img" />
-        <span>Christine Watts</span>
-        <div>Recruitment</div>
+        <img src={Alcides} alt="AlcidesJordan" id="staff-img" />
+        <span>Alcides Jordan</span>
+        <div>Home Director, Azul Wasi</div>
       </div>
       <div id="staff-imgHolder">
         <img src={Doris} alt="DorisAvila" id="staff-img" />
@@ -117,11 +136,7 @@ const StaffTeam = () => (
         <span>Maria Gabriela Romero</span>
         <div>Home Director, Melgar</div>
       </div>
-      <div id="staff-imgHolder">
-        <img src={Natalia} alt="NataliaAlejandraGuzman" id="staff-img" />
-        <span>Natalia Alejandra Guzman</span>
-        <div>Marketing & Publicity</div>
-      </div>
+      
       <div id="staff-imgHolder">
         <img src={Nayibe} alt="NayibeCatalinaRamirezGomez" id="staff-img" />
         <span>Nayibe Gomez</span>
@@ -132,20 +147,11 @@ const StaffTeam = () => (
         <span>Oriana Rincon</span>
         <div>Home Director, Guajira</div>
       </div>
-      <div id="staff-imgHolder">
-        <img src={RosaInes} alt="RosaInesPulecioGuzman" id="staff-img" />
-        <span>Rosa Guzman</span>
-        <div>Legal Rep. Ong Chapter, Colombia</div>
-      </div>
+      
       <div id="staff-imgHolder">
         <img src={Rosario} alt="RosarioVasquez" id="staff-img" />
         <span>Rosario Vasquez</span>
         <div>Home Director, Espinal</div>
-      </div>
-      <div id="staff-imgHolder">
-        <img src={Sandra} alt="SandraGongora" id="staff-img" />
-        <span>Sandra Gongora</span>
-        <div>Country Director, Colombia</div>
       </div>
       <div id="staff-imgHolder">
         <img src={Santiago} alt="SantiagoSanchezBarrios" id="staff-img" />
@@ -181,14 +187,45 @@ const Volunteers = () => (
         <div>Volunteer, Espinal Home</div>
       </div>
       <div id="staff-imgHolder">
-        <img src={LuzAyde} alt="LuzAydeCristiano" id="staff-img" />
-        <span>Luz Ayde Cristiano</span>
-        <div>Spanish Translation & Editing</div>
-      </div>
-      <div id="staff-imgHolder">
         <img src={LuzDary} alt="LuzDaryBarragan" id="staff-img" />
         <span>Luz Dary Barragan</span>
         <div>Volunteer, Espinal Home</div>
+      </div>
+    </section>
+  </section>
+);
+
+
+const StaffMisc = () => (
+  <section id="staff-section">
+    <header id="staff-header">Staff</header>
+    <section id="staff-img-cont">
+      <div id="staff-imgHolder">
+        <img src={Camila} alt="CamilaMoreno" id="staff-img" />
+        <span>Camila Moreno</span>
+        <div>Public Relations</div>
+      </div>
+      <div id="staff-imgHolder">
+        <img src={Christine} alt="ChristineWatts" id="staff-img" />
+        <span>Christine Watts</span>
+        <div>Recruitment</div>
+      </div>
+
+      <div id="staff-imgHolder">
+        <img src={RosaInes} alt="RosaInesPulecioGuzman" id="staff-img" />
+        <span>Rosa Guzman</span>
+        <div>Legal Rep. Ong Chapter, Colombia</div>
+      </div>
+
+      <div id="staff-imgHolder">
+        <img src={Natalia} alt="NataliaAlejandraGuzman" id="staff-img" />
+        <span>Natalia Alejandra Guzman</span>
+        <div>Marketing & Publicity</div>
+      </div>
+      <div id="staff-imgHolder">
+        <img src={LuzAyde} alt="LuzAydeCristiano" id="staff-img" />
+        <span>Luz Ayde Cristiano</span>
+        <div>Spanish Translation & Editing</div>
       </div>
     </section>
   </section>

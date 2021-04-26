@@ -1,6 +1,9 @@
 import React from "react";
 import "./Stages.scss";
 
+// APRIL 21 UPDATE
+// ON HOVER OF BOXES, SWITCH TO IMAGES OF CHILDREN
+
 const Stages = () => {
   return (
     <section id="stages-section">
