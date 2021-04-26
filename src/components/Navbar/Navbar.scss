@@ -6,8 +6,8 @@ nav, #main-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // padding: 1.25em;
-  // border-bottom: solid 1px $grayNurse;
+      box-shadow: .1px .1px 2px $grayNurse;
+
   position: fixed;
   top: 0;
   width: 100%;
@@ -16,10 +16,18 @@ nav, #main-nav {
   z-index: 100;
 }
 
-#nav-logo, #nav-dropdown {
+#nav-logo {
+  width: 75%;
+  cursor: pointer;
   padding: 1em 1em;
-  width: 20%;
 }
+
+#nav-dropdown {
+   cursor: pointer;
+   padding: 1em 1em;
+  width: 45%;
+}
+
 
 #nav-logo-cont {
   text-align: left;
@@ -77,8 +85,8 @@ nav, #main-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // padding: 1.25em;
-  // border-bottom: solid 1px $grayNurse;
+    box-shadow: .1px .1px 2px $grayNurse;
+
   position: fixed;
   top: 0;
   width: 100vw;
@@ -87,10 +95,18 @@ nav, #main-nav {
   z-index: 100;
 }
 
-#nav-logo, #nav-dropdown {
+#nav-logo {
+  width: 40%;
+  cursor: pointer;
   padding: 1em 1em;
-  width: 13%;
 }
+
+#nav-dropdown {
+   cursor: pointer;
+   padding: 1em 1em;
+  width: 25%;
+}
+
 
 #nav-logo-cont {
   text-align: left;
@@ -153,6 +169,7 @@ nav, #main-nav {
   align-items: center;
   // padding: 1.25em;
   // border-bottom: solid 1px $grayNurse;
+  box-shadow: .1px .1px 2px $grayNurse;
   position: fixed;
   top: 0;
   width: 100vw;
@@ -161,10 +178,16 @@ nav, #main-nav {
   z-index: 100;
 }
 
-#nav-logo, #nav-dropdown {
+#nav-logo {
+  width: 27%;
   cursor: pointer;
   padding: 1em 1em;
-  width: 8%;
+}
+
+#nav-dropdown {
+   cursor: pointer;
+   padding: 1em 1em;
+  width: 13%;
 }
 
 #nav-logo-cont {
@@ -179,6 +202,31 @@ nav, #main-nav {
   text-decoration: none;
   color: white;
 }
+
+.borderLeftRight {
+    display: inline-block;
+    position: relative;
+    color: hsl(222, 25%, 14%);
+  }
+  
+  .borderLeftRight::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $sugarWhite;
+    transform-origin: bottom right;
+    transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  
+  .borderLeftRight:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
 
   #nav-menu {
   height: 100%;

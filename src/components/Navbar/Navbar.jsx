@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.scss";
-import Logo from "../../assets/icons/Logo.png";
+import Logo from "../../assets/icons/GenHu-Full-Logo-1024x217.png";
 import Menu from "../../assets/icons/menu.png";
 import Close from "../../assets/icons/close.svg";
 import { Fade } from "react-reveal";
@@ -20,14 +20,25 @@ const Navbar = () => {
       <Fade left>
         <div id="nav-menu">
           <div className="menu-content">
-            <NavLink to="/about" id="nav-link" onClick={() => toggled()}>
+            <NavLink
+              to="/about"
+              id="nav-link"
+              className="borderLeftRight"
+              onClick={() => toggled()}
+            >
               About Us
             </NavLink>
-            <NavLink to="/our-staff" id="nav-link" onClick={() => toggled()}>
+            <NavLink
+              to="/our-staff"
+              id="nav-link"
+              className="borderLeftRight"
+              onClick={() => toggled()}
+            >
               Our Staff
             </NavLink>
             <NavLink
               to="/homes&projects"
+              className="borderLeftRight"
               id="nav-link"
               onClick={() => toggled()}
             >
@@ -36,6 +47,7 @@ const Navbar = () => {
             <NavLink
               to="/contact"
               id="nav-link"
+              className="borderLeftRight"
               onClick={() => toggled()}
             >
               Contact Us

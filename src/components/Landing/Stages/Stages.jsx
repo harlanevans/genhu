@@ -1,39 +1,87 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Stages.scss";
+import { Fade } from "react-reveal";
+
+import ChildOfStreet from "../../../assets/images/stages/childOfstreet.jpg";
+import HighRiskChildren from "../../../assets/images/stages/HighRiskChildren.jpeg";
+import ChildInStreet from "../../../assets/images/stages/ChildInStreet.png";
 
 // APRIL 21 UPDATE
 // ON HOVER OF BOXES, SWITCH TO IMAGES OF CHILDREN
 
 const Stages = () => {
+  const [hoverHighRisk, setHoverHighRisk] = useState(false);
+  const [hoverInStreet, setHoverInStreet] = useState(false);
+  const [hoverOfStreet, setHoverOfStreet] = useState(false);
+
   return (
     <section id="stages-section">
       <header id="stages-header">
         Three stages of Street Children Development
       </header>
       <section id="risk-box-row">
-        <section id="high-risk">
-          <h3 className="risk-header">Children at High Risk</h3>
-          <p className="risk-body">(In Absolute Poverty)</p>
-          <div className="risk-identity">
-            <h5>PRIMARY </h5>
-            <h5>PREVENTION</h5>
-          </div>
+        <section
+          id={hoverHighRisk ? "high-risk-flipped" : "high-risk"}
+          onMouseEnter={() => setHoverHighRisk(true)}
+          onMouseLeave={() => setHoverHighRisk(false)}
+        >
+          {" "}
+          {hoverHighRisk ? (
+            <Fade>
+              <img src={HighRiskChildren} id="high-risk-image" />
+            </Fade>
+          ) : (
+            <Fade>
+              <h3 className="risk-header">Children at High Risk</h3>
+              <p className="risk-body">(In Absolute Poverty)</p>
+              <div className="risk-identity">
+                <h5 className="risk-identity">PRIMARY </h5>
+                <h5 className="risk-identity">PREVENTION</h5>
+              </div>
+            </Fade>
+          )}
         </section>
-        <section id="in-street">
-          <h3 className="risk-header">Children IN the Street</h3>
-          <p className="risk-body">(Street Workers)</p>
-          <div className="risk-identity">
-            <h5>SECONDARY </h5>
-            <h5>PREVENTION</h5>
-          </div>
+        <section
+          id={hoverInStreet ? "in-street-flipped" : "in-street"}
+          onMouseEnter={() => setHoverInStreet(true)}
+          onMouseLeave={() => setHoverInStreet(false)}
+        >
+          {" "}
+          {hoverInStreet ? (
+            <Fade>
+              <img src={ChildInStreet} id="high-risk-image" />
+            </Fade>
+          ) : (
+            <Fade>
+              <h3 className="risk-header">Children IN the Street</h3>
+              <p className="risk-body">(Street Workers)</p>
+              <div className="risk-identity">
+                <h5 className="risk-identity">SECONDARY </h5>
+                <h5 className="risk-identity">PREVENTION</h5>
+              </div>
+            </Fade>
+          )}
         </section>
-        <section id="of-street">
-          <h3 className="risk-header">Children OF the Street</h3>
-          <p className="risk-body">(Gamines / Displosables)</p>
-          <div className="risk-identity">
-            <h5>TERTIARY </h5>
-            <h5>PREVENTION</h5>
-          </div>
+        <section
+          id={hoverInStreet ? "of-street-flipped" : "of-street"}
+          onMouseEnter={() => setHoverOfStreet(true)}
+          onMouseLeave={() => setHoverOfStreet(false)}
+        >
+          {" "}
+          {hoverOfStreet ? (
+            <Fade>
+              <img src={ChildOfStreet} id="high-risk-image" />
+            </Fade>
+          ) : (
+            <Fade>
+              <h3 className="risk-header">Children OF the Street</h3>
+              <p className="risk-body">(Gamines / Displosables)</p>
+              <div className="risk-identity">
+                <h5 className="risk-identity">TERTIARY </h5>
+                <h5 className="risk-identity">PREVENTION</h5>
+              </div>
+            </Fade>
+          )}
         </section>
       </section>
       <section id="help-donate">
@@ -45,7 +93,7 @@ const Stages = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <button id="donate-button"> DONATE NOW</button>
+          <button id="donate-button" className='horizontalOverlay'> DONATE NOW</button>
         </a>
       </section>
     </section>
