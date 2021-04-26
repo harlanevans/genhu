@@ -28,7 +28,11 @@ const Stages = () => {
           {" "}
           {hoverHighRisk ? (
             <Fade>
-              <img src={HighRiskChildren} id="high-risk-image" />
+              <img
+                src={HighRiskChildren}
+                id="high-risk-image"
+                alt="high-risk children"
+              />
             </Fade>
           ) : (
             <Fade>
@@ -49,7 +53,11 @@ const Stages = () => {
           {" "}
           {hoverInStreet ? (
             <Fade>
-              <img src={ChildInStreet} id="high-risk-image" />
+              <img
+                src={ChildInStreet}
+                id="high-risk-image"
+                alt="children-in-street"
+              />
             </Fade>
           ) : (
             <Fade>
@@ -70,7 +78,11 @@ const Stages = () => {
           {" "}
           {hoverOfStreet ? (
             <Fade>
-              <img src={ChildOfStreet} id="high-risk-image" />
+              <img
+                src={ChildOfStreet}
+                id="high-risk-image"
+                alt="children-of-street"
+              />
             </Fade>
           ) : (
             <Fade>
@@ -93,7 +105,10 @@ const Stages = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <button id="donate-button" className='horizontalOverlay'> DONATE NOW</button>
+          <button id="donate-button" className="horizontalOverlay">
+            {" "}
+            DONATE NOW
+          </button>
         </a>
       </section>
     </section>

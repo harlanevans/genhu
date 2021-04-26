@@ -1,7 +1,7 @@
 import React from "react";
 import "./Success.scss";
 import CountUp from "react-countup";
-import { Fade, Slide } from "react-reveal";
+import { Fade } from "react-reveal";
 
 const Success = () => {
   return (
