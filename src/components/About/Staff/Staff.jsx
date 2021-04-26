@@ -117,11 +117,6 @@ const HomeDirectors = () => (
         <div>Home Director, Azul Wasi</div>
       </div>
       <div id="staff-imgHolder">
-        <img src={Doris} alt="DorisAvila" id="staff-img" />
-        <span>Doris Avila</span>
-        <div>Assistant Director, Ibague - San Jose</div>
-      </div>
-      <div id="staff-imgHolder">
         <img src={Elsa} alt="ElsaYanileCortesPrada" id="staff-img" />
         <span>Elsa Yanile Cortes</span>
         <div>Home Director, Ibague - San Jose</div>
@@ -136,12 +131,6 @@ const HomeDirectors = () => (
         <span>Maria Gabriela Romero</span>
         <div>Home Director, Melgar</div>
       </div>
-      
-      <div id="staff-imgHolder">
-        <img src={Nayibe} alt="NayibeCatalinaRamirezGomez" id="staff-img" />
-        <span>Nayibe Gomez</span>
-        <div>Home Volunteer, Medellin</div>
-      </div>
       <div id="staff-imgHolder">
         <img src={Oriana} alt="OrianaVanesaGarciaRincon" id="staff-img" />
         <span>Oriana Rincon</span>
@@ -154,14 +143,25 @@ const HomeDirectors = () => (
         <div>Home Director, Espinal</div>
       </div>
       <div id="staff-imgHolder">
-        <img src={Santiago} alt="SantiagoSanchezBarrios" id="staff-img" />
-        <span>Santiago Barrios</span>
-        <div>Home Volunteer, Tolima</div>
-      </div>
-      <div id="staff-imgHolder">
         <img src={Zulma} alt="ZulmaAlciraNaranjoCastano" id="staff-img" />
         <span>Zulma Castano</span>
         <div>Home Director, Medellin</div>
+      </div>
+      <div id="staff-imgHolder">
+        <img src={Doris} alt="DorisAvila" id="staff-img" />
+        <span>Doris Avila</span>
+        <div>Assistant Director, Ibague - San Jose</div>
+      </div>
+      
+      <div id="staff-imgHolder">
+        <img src={Nayibe} alt="NayibeCatalinaRamirezGomez" id="staff-img" />
+        <span>Nayibe Gomez</span>
+        <div>Home Volunteer, Medellin</div>
+      </div>
+      <div id="staff-imgHolder">
+        <img src={Santiago} alt="SantiagoSanchezBarrios" id="staff-img" />
+        <span>Santiago Barrios</span>
+        <div>Home Volunteer, Tolima</div>
       </div>
     </section>
   </section>
