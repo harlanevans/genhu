@@ -16,43 +16,43 @@ const Success = () => {
         <Fade top cascade duration={3000} wait={1000}>
           <div className="number-cont">
             <h3 className="number-counter" id="current-children">
-              <CountUp end={1368} separator="," />
+              <CountUp end={1420} separator="," />
             </h3>
             <p className="number-label">Current Children</p>
           </div>
           <div className="number-cont">
             <h3 className="number-counter" id="meals-per-month">
-              <CountUp end={11856} separator="," />
+              <CountUp end={8012} separator="," />
             </h3>
             <p className="number-label">Meals Per Month</p>
           </div>
           <div className="number-cont">
             <h3 className="number-counter" id="meals-to-date">
-              <CountUp end={929213} separator="," />
+              <CountUp end={1651129} separator="," />
             </h3>
             <p className="number-label">Meals To Date</p>
           </div>
           <div className="number-cont">
             <h3 className="number-counter" id="tons-of-donations">
-              <CountUp start={0.0} end={18.53} decimals={2} />
+              <CountUp start={0.0} end={19.63} decimals={2} />
             </h3>
             <p className="number-label">Tons of Donations</p>
           </div>
           <div className="number-cont">
             <h3 className="number-counter" id="volunteer-hours">
-              <CountUp end={130156} separator="," />
+              <CountUp end={160600} separator="," />
             </h3>
             <p className="number-label">Volunteer Hours</p>
           </div>
           <div className="number-cont">
             <h3 className="number-counter" id="expedition-participants">
-              <CountUp end={520} />
+              <CountUp end={533} />
             </h3>
             <p className="number-label">Expedition Participants</p>
           </div>
           <div className="number-cont">
             <h3 className="number-counter" id="value-time">
-              $<CountUp end={3141966} duration={2} separator="," />
+              $<CountUp end={3876884} duration={2} separator="," />
             </h3>
             <p className="number-label">Value of Volunteer Time</p>
           </div>
