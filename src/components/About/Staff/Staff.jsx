@@ -63,7 +63,7 @@ const Board = () => (
     <section id="staff-img-cont">
       <div id="staff-imgHolder">
         <img src={Van} alt="VanEvans" id="staff-img" />
-        <span>Van Evans, PhD, LCSW</span>
+        <span>Van Evans, PhD</span>
         <div>President</div>
       </div>
       <div id="staff-imgHolder">
@@ -79,7 +79,7 @@ const Board = () => (
       <div id="staff-imgHolder">
         <img src={Jaime} alt="JaimeFigureroa" id="staff-img" />
         <span>Jaime Figureroa, MPA</span>
-        <div>Country Director, Peru</div>
+        <div>Director, Peru</div>
       </div>
     </section>
   </section>
@@ -95,14 +95,14 @@ const CountryDirectors = () => (
         <div>Country Director, Peru</div>
       </div>
       <div id="staff-imgHolder">
-        <img src={AnaJulie} alt="AnaJuliaGiraud" id="staff-img" />
-        <span>Ana Julia Giraud</span>
-        <div>Country Director, Venezuela</div>
-      </div>
-      <div id="staff-imgHolder">
         <img src={Sandra} alt="SandraGongora" id="staff-img" />
         <span>Sandra Gongora</span>
         <div>Country Director, Colombia</div>
+      </div>
+      <div id="staff-imgHolder">
+        <img src={AnaJulie} alt="AnaJuliaGiraud" id="staff-img" />
+        <span>Ana Julia Giraud</span>
+        <div>Country Director, Venezuela</div>
       </div>
     </section>
   </section>
@@ -122,9 +122,15 @@ const HomeDirectors = () => (
         <div>Home Director, Ibague - San Jose</div>
       </div>
       <div id="staff-imgHolder">
-        <img src={Jose} alt="JoseSantos" id="staff-img" />
-        <span>Jose Santos</span>
-        <div>Home Director, Alvarado</div>
+        <img src={Doris} alt="DorisAvila" id="staff-img" />
+        <span>Doris Avila</span>
+        <div>Assistant Director, Ibague - San Jose</div>
+      </div>
+      
+      <div id="staff-imgHolder">
+        <img src={AnaJulie} alt="AnaJuliaGiraud" id="staff-img" />
+        <span>Ana Julia Giraud</span>
+        <div>Home Director, Cucuta & San Felipe</div>
       </div>
       <div id="staff-imgHolder">
         <img src={Maria} alt="MariaGabrielaRomero" id="staff-img" />
@@ -132,11 +138,16 @@ const HomeDirectors = () => (
         <div>Home Director, Melgar</div>
       </div>
       <div id="staff-imgHolder">
+        <img src={Santiago} alt="SantiagoSanchezBarrios" id="staff-img" />
+        <span>Santiago Barrios</span>
+        <div>Assistant Director, Melgar</div>
+      </div>
+      <div id="staff-imgHolder">
         <img src={Oriana} alt="OrianaVanesaGarciaRincon" id="staff-img" />
         <span>Oriana Rincon</span>
-        <div>Home Director, Guajira</div>
+        <div>Home Director, La Guajira</div>
       </div>
-      
+
       <div id="staff-imgHolder">
         <img src={Rosario} alt="RosarioVasquez" id="staff-img" />
         <span>Rosario Vasquez</span>
@@ -147,21 +158,11 @@ const HomeDirectors = () => (
         <span>Zulma Castano</span>
         <div>Home Director, Medellin</div>
       </div>
-      <div id="staff-imgHolder">
-        <img src={Doris} alt="DorisAvila" id="staff-img" />
-        <span>Doris Avila</span>
-        <div>Assistant Director, Ibague - San Jose</div>
-      </div>
-      
+
       <div id="staff-imgHolder">
         <img src={Nayibe} alt="NayibeCatalinaRamirezGomez" id="staff-img" />
         <span>Nayibe Gomez</span>
-        <div>Home Volunteer, Medellin</div>
-      </div>
-      <div id="staff-imgHolder">
-        <img src={Santiago} alt="SantiagoSanchezBarrios" id="staff-img" />
-        <span>Santiago Barrios</span>
-        <div>Home Volunteer, Tolima</div>
+        <div>Assistant Director, Medellin</div>
       </div>
     </section>
   </section>
@@ -210,11 +211,15 @@ const StaffMisc = () => (
         <span>Christine Watts</span>
         <div>Recruitment</div>
       </div>
-
+      <div id="staff-imgHolder">
+        <img src={Jose} alt="JoseSantos" id="staff-img" />
+        <span>Jose Santos</span>
+        <div>Logistics</div>
+      </div>
       <div id="staff-imgHolder">
         <img src={RosaInes} alt="RosaInesPulecioGuzman" id="staff-img" />
-        <span>Rosa Guzman</span>
-        <div>Legal Rep. Ong Chapter, Colombia</div>
+        <span>Rosita Guzman</span>
+        <div>Legal Rep, Colombia</div>
       </div>
 
       <div id="staff-imgHolder">

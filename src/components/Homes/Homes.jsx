@@ -19,7 +19,7 @@ const Homes = () => {
   return (
     <section id="homes-main">
       <header id="homes-header">Homes & Projects</header>
-      <ul id="homes-links-cont">
+      {/* <ul id="homes-links-cont">
         <Link to="/homes&projects/anta" id="homes-link">
           <button id="homes-button">Anta</button>
         </Link>
@@ -41,7 +41,7 @@ const Homes = () => {
         <Link to="/homes&projects/ibague/sanjose" id="homes-link">
           <button id="homes-button">Ibague-San Jose</button>
         </Link>
-      </ul>
+      </ul> */}
       <section id="homes-maps-cont">
         <GoogleMaps center={center} />
       </section>

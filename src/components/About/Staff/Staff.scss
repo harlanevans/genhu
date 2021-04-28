@@ -141,6 +141,7 @@
   #staff-img-cont {
     display: flex;
     flex-flow: row wrap;
+    justify-content: flex-start;
     width: 100%;
   }
 
@@ -153,11 +154,9 @@
 
   #staff-imgHolder {
     position: relative;
-    // border: solid 3px blue;
-    // width: 100%;
-    flex: 1 1 20%;
-    // display: flex;
-    // justify-content: center;
+    flex-basis: auto;
+    // flex: 1 1 20%;
+
   }
 
   #staff-imgHolder span {
