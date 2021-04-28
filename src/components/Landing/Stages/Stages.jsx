@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, } from "react";
 import "./Stages.scss";
 import { Fade } from "react-reveal";
 
@@ -28,15 +28,19 @@ const Stages = () => {
           {" "}
           {hoverHighRisk ? (
             <Fade>
-              <img
-                src={HighRiskChildren}
-                id="high-risk-image"
-                alt="high-risk children"
-              />
+              <div id="child-img-cont">
+                <img
+                  src={HighRiskChildren}
+                  id="high-risk-img"
+                  className="child-img"
+                  alt="high-risk children"
+                />
+              </div>
             </Fade>
           ) : (
             <Fade>
-              <h3 className="risk-header">Children at High Risk</h3>
+              <h3 id="risk-header">Children at High Risk</h3>
+              <hr />
               <p className="risk-body">(In Absolute Poverty)</p>
               <div className="risk-identity">
                 <h5 className="risk-identity">PRIMARY </h5>
@@ -49,19 +53,24 @@ const Stages = () => {
           id={hoverInStreet ? "in-street-flipped" : "in-street"}
           onMouseEnter={() => setHoverInStreet(true)}
           onMouseLeave={() => setHoverInStreet(false)}
+          onClick={() => setHoverInStreet(true)}
         >
           {" "}
           {hoverInStreet ? (
             <Fade>
-              <img
-                src={ChildInStreet}
-                id="high-risk-image"
-                alt="children-in-street"
-              />
+              <div id="child-img-cont">
+                <img
+                  src={ChildInStreet}
+                  className="child-img"
+                  alt="children-in-street"
+                  id="child-in-street-img"
+                />
+              </div>
             </Fade>
           ) : (
             <Fade>
-              <h3 className="risk-header">Children IN the Street</h3>
+              <h3 id="risk-header">Children IN the Street</h3>
+              <hr />
               <p className="risk-body">(Street Workers)</p>
               <div className="risk-identity">
                 <h5 className="risk-identity">SECONDARY </h5>
@@ -78,15 +87,19 @@ const Stages = () => {
           {" "}
           {hoverOfStreet ? (
             <Fade>
-              <img
-                src={ChildOfStreet}
-                id="high-risk-image"
-                alt="children-of-street"
-              />
+              <div id="child-img-cont">
+                <img
+                  src={ChildOfStreet}
+                  className="child-img"
+                  alt="children-of-street"
+                  id="child-of-street-img"
+                />
+              </div>
             </Fade>
           ) : (
             <Fade>
-              <h3 className="risk-header">Children OF the Street</h3>
+              <h3 id="risk-header">Children OF the Street</h3>
+              <hr />
               <p className="risk-body">(Gamines / Displosables)</p>
               <div className="risk-identity">
                 <h5 className="risk-identity">TERTIARY </h5>
@@ -101,7 +114,7 @@ const Stages = () => {
           Help support Generations Humanitarian and our Causes
         </h3>
         <a
-          href="https://www.paypal.com/donate?token=U_lEMXfFylKthsBV3RGR3PyHDYclXfD8JoFz_9AXkCpd9qvlyBxoI81jdfSr-cKufXQEh_kbWpJPBgsl"
+          href="https://www.paypal.com/donate?hosted_button_id=CGXDNTCZ8N3C4"
           target="_blank"
           rel="noreferrer"
         >

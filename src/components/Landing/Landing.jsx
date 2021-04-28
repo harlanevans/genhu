@@ -33,14 +33,14 @@ export default Landing;
 
 const HeroPage = () => (
   // <section id="landing-page">
-  <Carousel fade indicators={false} controls={false}>
+  <Carousel fade indicators controls>
     <Carousel.Item>
       <div id="image-container">
         <Carousel.Caption id="carousel-text">
-          <Fade left cascade duration={1500}>
+          <Fade left cascade duration={2000}>
             <h1 id="carousel-text-details">Generations</h1>
             <h1 id="carousel-text-details">Humanitarian</h1>
-            <p>Example text goes here</p>
+            <p></p>
           </Fade>
         </Carousel.Caption>
         <img
@@ -56,7 +56,7 @@ const HeroPage = () => (
         <Carousel.Caption id="carousel-text">
           <Fade left cascade duration={1500}>
             <h1 id="carousel-text-details">You have cared</h1>
-            <p>Example text here</p>
+            <p></p>
           </Fade>
         </Carousel.Caption>
         <img
