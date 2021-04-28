@@ -181,7 +181,6 @@ const Navbar = () => {
         </div>
       </nav>
       {toggleMenu && menu()}
-      {/* {toggledHomes && homes()} */}
     </>
   );
 };
