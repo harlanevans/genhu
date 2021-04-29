@@ -10,15 +10,15 @@ import Policy from "./components/Legal/Policy/Policy";
 import About from "./components/About/About";
 import Staff from "./components/About/Staff/Staff";
 import Homes from "./components/Homes/Homes";
-import Anta from "./components/Homes/Anta/Anta";
-import Alvarado from "./components/Homes/Alvarado/Alvarado";
 import AzulWasi from "./components/Homes/AzulWasi/AzulWasi";
-import Ricaurte from "./components/Homes/Ibague-Ricaurte/Ricaurte";
 import SanJose from "./components/Homes/Ibague-SanJose/SanJose";
-import Greenhouse from "./components/Homes/Greenhouse/Greenhouse";
 import Contact from "./components/Contact/Contact";
 import Espinal from "./components/Homes/Espinal/Espinal";
-
+import Melgar from "./components/Homes/Melgar/Melgar";
+import LaGuajira from "./components/Homes/LaGuajira/LaGuajira";
+import Medellin from "./components/Homes/Medellin/Medellin";
+import Cucuta from "./components/Homes/Cucuta/Cucuta";
+import SanFelipe from "./components/Homes/SanFelipe/SanFelipe";
 
 const App = () => {
   return (
@@ -34,25 +34,14 @@ const App = () => {
           <Route exact path="/our-staff" component={Staff} />
           <Route exact path="/homes&projects" component={Homes} />
 
-          <Route exact path="/homes&projects/anta" component={Anta} />
-          <Route exact path="/homes&projects/alvarado" component={Alvarado} />
           <Route exact path="/homes&projects/azulwasi" component={AzulWasi} />
           <Route exact path="/homes&projects/espinal" component={Espinal} />
-          <Route
-            exact
-            path="/homes&projects/ibague/ricaurte"
-            component={Ricaurte}
-          />
-          <Route
-            exact
-            path="/homes&projects/ibague/sanjose"
-            component={SanJose}
-          />
-          <Route
-            exact
-            path="/homes&projects/greenhouse-hydroponics"
-            component={Greenhouse}
-          />
+          <Route exact path="/homes&projects/melgar" component={Melgar} />
+          <Route exact path="/homes&projects/laguajira" component={LaGuajira} />
+          <Route exact path="/homes&projects/medellin" component={Medellin} />
+          <Route exact path="/homes&projects/cucuta" component={Cucuta} />
+          <Route exact path="/homes&projects/sanfelipe" component={SanFelipe} />
+          <Route exact path="/homes&projects/sanjose" component={SanJose} />
         </Switch>
       </ScrollToTop>
       <Footer />

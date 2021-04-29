@@ -1,0 +1,298 @@
+@import "../../../assets/Global.scss";
+
+#sanfelipe-main {
+  padding: 6em 0em 2em;
+}
+
+#sanfelipe-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0em 2em;
+
+}
+
+#sanfelipe-header {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+#sanfelipe-names {
+  font-weight: 400;
+  font-size: 1.25em;
+  padding: 0.5em 0em;
+}
+
+#sanfelipe-titles {
+  font-weight: 400;
+  font-size: 0.75em;
+}
+
+#sanfelipe-sections {
+  padding: 1em 0em;
+}
+
+#sanfelipe-maps-cont {
+  padding: 2em 0em;
+}
+
+
+#sanfelipe-paragraphs {
+  font-size: 0.9em;
+  padding: 1em 0em;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+#sanfelipe-images {
+  width: 100%;
+  padding: 1em 0em;
+}
+
+#sanfelipe-button {
+  background-color: $buttonGreen;
+  color: $sugarWhite;
+  padding: 1em 2em;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 1em;
+}
+
+#sanfelipe-button-cont {
+  display: flex;
+  justify-content: center;
+}
+
+#about-sanfelipe {
+  padding: 2em;
+}
+
+
+// tablet breakpoint
+@media screen and (min-width: $tablet) {
+  #sanfelipe-main {
+    padding: 6em 0em 0em;
+  }
+
+  #sanfelipe-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0em 2em;
+  }
+
+  #sanfelipe-content {
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+  #sanfelipe-header {
+    font-weight: 400;
+    font-size: 2em;
+  }
+
+  #about-sanfelipe {
+    padding: 2em 4em;
+  }
+  #sanfelipe-names {
+    font-weight: 400;
+    font-size: 1.5em;
+    padding: 0.5em 0em;
+  }
+
+  #sanfelipe-titles {
+    font-weight: 400;
+    font-size: 1em;
+  }
+
+  #sanfelipe-sections {
+    padding: 1em 0em;
+  }
+
+  #sanfelipe-maps-cont {
+    width: 50%;
+    padding: 2em 0em;
+  }
+
+  #sanfelipe-paragraphs {
+    font-size: 1em;
+    padding: 1em 0em;
+    font-weight: 300;
+    line-height: 2em;
+  }
+
+  #sanfelipe-images {
+    width: 50%;
+    padding: 1em 0em;
+  }
+
+  #sanfelipe-image-cont {
+  display: flex;
+  justify-content: center;
+}
+
+  #sanfelipe-button {
+    background-color: $buttonGreen;
+    color: $sugarWhite;
+    padding: 1em 2em;
+    letter-spacing: 0.15em;
+    border: none;
+    font-size: 1.25em;
+  }
+
+  #sanfelipe-button-cont {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@import "../../../assets/Global.scss";
+
+#sanfelipe-main {
+  padding: 6em 0em 2em;
+}
+
+#sanfelipe-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0em 2em;
+
+}
+
+#sanfelipe-header {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+#sanfelipe-names {
+  font-weight: 400;
+  font-size: 1.25em;
+  padding: 0.5em 0em;
+}
+
+#sanfelipe-titles {
+  font-weight: 400;
+  font-size: 0.75em;
+}
+
+#sanfelipe-sections {
+  padding: 1em 0em;
+}
+
+#sanfelipe-maps-cont {
+  padding: 2em 0em;
+}
+
+
+#sanfelipe-paragraphs {
+  font-size: 0.9em;
+  padding: 1em 0em;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+#sanfelipe-images {
+  width: 100%;
+  padding: 1em 0em;
+}
+
+#sanfelipe-button {
+  background-color: $buttonGreen;
+  color: $sugarWhite;
+  padding: 1em 2em;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 1em;
+}
+
+#sanfelipe-button-cont {
+  display: flex;
+  justify-content: center;
+}
+
+#about-sanfelipe {
+  padding: 2em;
+}
+
+
+// tablet breakpoint
+@media screen and (min-width: $tablet) {
+  #sanfelipe-main {
+    padding: 6em 0em 0em;
+  }
+
+  #sanfelipe-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0em 2em;
+  }
+
+  #sanfelipe-content {
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+  #sanfelipe-header {
+    font-weight: 400;
+    font-size: 2em;
+  }
+
+  #about-sanfelipe {
+    padding: 2em 4em;
+  }
+  #sanfelipe-names {
+    font-weight: 400;
+    font-size: 1.5em;
+    padding: 0.5em 0em;
+  }
+
+  #sanfelipe-titles {
+    font-weight: 400;
+    font-size: 1em;
+  }
+
+  #sanfelipe-sections {
+    padding: 1em 0em;
+  }
+
+  #sanfelipe-maps-cont {
+    width: 50%;
+    padding: 2em 0em;
+  }
+
+  #sanfelipe-paragraphs {
+    font-size: 1em;
+    padding: 1em 0em;
+    font-weight: 300;
+    line-height: 2em;
+  }
+
+  #sanfelipe-images {
+    width: 50%;
+    padding: 1em 0em;
+  }
+
+  #sanfelipe-image-cont {
+  display: flex;
+  justify-content: center;
+}
+
+  #sanfelipe-button {
+    background-color: $buttonGreen;
+    color: $sugarWhite;
+    padding: 1em 2em;
+    letter-spacing: 0.15em;
+    border: none;
+    font-size: 1.25em;
+  }
+
+  #sanfelipe-button-cont {
+    display: flex;
+    justify-content: center;
+  }
+}
+

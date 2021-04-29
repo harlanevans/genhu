@@ -1,113 +1,55 @@
 @import "../../../assets/Global.scss";
 
-#sanjose-header {
-  font-weight: 400;
-  font-size: 2em;
+#medellin-main {
+  padding: 6em 0em 2em;
 }
 
-#sanjose-names {
-  font-weight: 400;
-  font-size: 1.25em;
-  padding: 0.5em 0em;
-}
-
-#sanjose-titles {
-  font-weight: 400;
-  font-size: 0.75em;
-}
-
-#sanjose-sections {
-  padding: 1em 0em;
-}
-
-#sanjose-maps-cont {
-  padding: 2em 0em;
-}
-
-#sanjose-cont {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-#sanjose-paragraphs {
-  font-size: 0.9em;
-  padding: 1em 0em;
-  font-weight: 300;
-  line-height: 2em;
-}
-
-#sanjose-images {
-  width: 100%;
-  padding: 1em 0em;
-}
-
-#sanjose-button {
-  background-color: $buttonGreen;
-  color: $sugarWhite;
-  padding: 1em 2em;
-  letter-spacing: 0.15em;
-  border: none;
-  font-size: 1em;
-}
-
-#sanjose-button-cont {
-  display: flex;
-  justify-content: center;
-}
-
-
-#sanjose-main {
-  padding: 6em 0em 0em;
-}
-
-#sanjose-cont {
+#medellin-cont {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0em 2em;
+
 }
 
-#sanjose-header {
+#medellin-header {
   font-weight: 400;
   font-size: 2em;
 }
 
-#about-sanjose {
-  padding: 2em;
-}
-#sanjose-names {
+#medellin-names {
   font-weight: 400;
   font-size: 1.25em;
   padding: 0.5em 0em;
 }
 
-#sanjose-titles {
+#medellin-titles {
   font-weight: 400;
   font-size: 0.75em;
 }
 
-#sanjose-sections {
+#medellin-sections {
   padding: 1em 0em;
 }
 
-#sanjose-maps-cont {
+#medellin-maps-cont {
   padding: 2em 0em;
 }
 
-#sanjose-paragraphs {
+
+#medellin-paragraphs {
   font-size: 0.9em;
   padding: 1em 0em;
   font-weight: 300;
   line-height: 2em;
 }
 
-#sanjose-images {
+#medellin-images {
   width: 100%;
   padding: 1em 0em;
 }
 
-#sanjose-button {
+#medellin-button {
   background-color: $buttonGreen;
   color: $sugarWhite;
   padding: 1em 2em;
@@ -116,76 +58,81 @@
   font-size: 1em;
 }
 
-#sanjose-button-cont {
+#medellin-button-cont {
   display: flex;
   justify-content: center;
 }
 
+#about-medellin {
+  padding: 2em;
+}
+
+
 // tablet breakpoint
 @media screen and (min-width: $tablet) {
-  #sanjose-main {
+  #medellin-main {
     padding: 6em 0em 0em;
   }
 
-  #sanjose-cont {
+  #medellin-cont {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 0em 4em;
+    padding: 0em 2em;
   }
 
-  #sanjose-content {
+  #medellin-content {
       display: flex;
   flex-direction: column;
   justify-content: center;
   }
 
-  #sanjose-header {
+  #medellin-header {
     font-weight: 400;
     font-size: 2em;
   }
 
-  #about-sanjose {
+  #about-medellin {
     padding: 2em 4em;
   }
-  #sanjose-names {
+  #medellin-names {
     font-weight: 400;
     font-size: 1.5em;
     padding: 0.5em 0em;
   }
 
-  #sanjose-titles {
+  #medellin-titles {
     font-weight: 400;
     font-size: 1em;
   }
 
-  #sanjose-sections {
+  #medellin-sections {
     padding: 1em 0em;
   }
 
-  #sanjose-maps-cont {
+  #medellin-maps-cont {
     width: 50%;
     padding: 2em 0em;
   }
 
-  #sanjose-paragraphs {
+  #medellin-paragraphs {
     font-size: 1em;
     padding: 1em 0em;
     font-weight: 300;
     line-height: 2em;
   }
 
-  #sanjose-images {
+  #medellin-images {
     width: 50%;
     padding: 1em 0em;
   }
 
-  #sanjose-image-cont {
+  #medellin-image-cont {
   display: flex;
   justify-content: center;
 }
 
-  #sanjose-button {
+  #medellin-button {
     background-color: $buttonGreen;
     color: $sugarWhite;
     padding: 1em 2em;
@@ -194,16 +141,9 @@
     font-size: 1.25em;
   }
 
-  #sanjose-button-cont {
+  #medellin-button-cont {
     display: flex;
     justify-content: center;
   }
 }
-// window breakpoint
-// @media screen and (min-width: $window) {
 
-//   body {
-//     background-color: green;
-//   }
-
-// }

@@ -10,8 +10,8 @@ import { Link } from "react-router-dom";
 
 const AzulWasi = () => {
   const location = {
-    lat: -13.59,
-    lng: -71.775,
+    lat: -13.596144785881846,
+    lng: -71.77350709615084,
   };
 
   return (
@@ -103,13 +103,17 @@ const AboutAzulWasi = () => (
       dormitories, and since there is a surplus of street children in the city,
       we won’t have trouble filling them up.
     </p>
-    <div id='azulwasi-image-row'>
-    <div id="azulwasi-image-cont">
-      <img id="azulwasi-smaller-images" src={Smiling} alt="azulwasi-smiling" />
-    </div>
-    <div id="azulwasi-image-cont">
-      <img id="azulwasi-smaller-images" src={Carmen} alt="azulwasi-carmen" />
-    </div>
+    <div id="azulwasi-image-row">
+      <div id="azulwasi-image-cont">
+        <img
+          id="azulwasi-smaller-images"
+          src={Smiling}
+          alt="azulwasi-smiling"
+        />
+      </div>
+      <div id="azulwasi-image-cont">
+        <img id="azulwasi-smaller-images" src={Carmen} alt="azulwasi-carmen" />
+      </div>
     </div>
     {/* <section style={{ padding: "2em 0em" }}>
     </section> */}

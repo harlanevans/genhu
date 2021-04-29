@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 
 const SanJose = () => {
   const location = {
-    lat: -13.59,
-    lng: -71.775,
+    lat: 4.4383092814137575,
+    lng: -75.19585248362887,
   };
 
   return (
@@ -18,7 +18,7 @@ const SanJose = () => {
         <div id='sanjose-content'>
 
         <header>
-          <h1 id="sanjose-header">Ibague-SanJose Drop-In Center</h1>
+          <h1 id="sanjose-header">Ibague - San Jose Drop-In Center</h1>
         </header>
         <section id="sanjose-sections">
           <h3 id="sanjose-names">Elsa Yanile Cortes</h3>
@@ -38,9 +38,9 @@ const SanJose = () => {
       </section>
       </section>
       <Numbers
-        firstNumber={63}
+        firstNumber={65}
         firstString={"Sheltered Children"}
-        secondNumber={6}
+        secondNumber={60}
         secondString={"Victims of Armed Conflict"}
         thirdNumber={46}
         thirdString={"Orphans"}
@@ -62,7 +62,7 @@ export default SanJose;
 const AboutSanJose = () => (
   <section id='about-sanjose'>
     <header>
-      <h3 id="sanjose-names">About Ibague-sanjose Drop-In Center</h3>
+      <h3 id="sanjose-names">About Ibague - San Jose Drop-In Center</h3>
     </header>
     <p id="sanjose-paragraphs">
       Coming Soon...

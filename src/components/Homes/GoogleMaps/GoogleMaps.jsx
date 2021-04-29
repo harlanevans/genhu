@@ -1,5 +1,6 @@
 import React from "react";
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
+import HomeMarker from '../../../assets/icons/HomeMarker.svg'
 
 const containerStyle = {
   width: "100%",
@@ -14,7 +15,7 @@ const GoogleMaps = (props) => {
         center={props.center}
         zoom={7}
       >
-        <Marker position={props.center} />
+        <Marker position={props.center} icon={HomeMarker} />
       </GoogleMap>
     </LoadScript>
   );

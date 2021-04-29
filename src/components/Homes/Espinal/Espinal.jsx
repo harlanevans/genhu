@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const Espinal = () => {
   const location = {
-    lat: -13.59,
-    lng: -71.775,
+    lat: 4.149212670557918,
+    lng: -74.88546443160753,
   };
 
   return (
@@ -24,9 +24,9 @@ const Espinal = () => {
             </p>
           </section>
           <section id="espinal-sections">
-            <h3 id="espinal-names">General Funds</h3>
+            <h3 id="espinal-names">Reid Moon</h3>
             <p id="espinal-titles">
-              <i>Center Sponsor</i>
+              <i>Home Sponsor</i>
             </p>
           </section>
         </div>
@@ -35,7 +35,7 @@ const Espinal = () => {
         </section>
       </section>
       <Numbers
-        firstNumber={100}
+        firstNumber={110}
         firstString={"Sheltered Children"}
         secondNumber={50}
         secondString={"Victims of Armed Conflict"}

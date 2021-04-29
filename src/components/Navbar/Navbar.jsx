@@ -95,20 +95,20 @@ const Navbar = () => {
             Azul Wasi
           </NavLink>
           <NavLink
+            to="/homes&projects/cucuta"
+            id="nav-link-homes"
+            className="borderLeftRight"
+            onClick={() => clickHome()}
+          >
+            Cucuta
+          </NavLink>
+          <NavLink
             to="/homes&projects/espinal"
             id="nav-link-homes"
             className="borderLeftRight"
             onClick={() => clickHome()}
           >
             Espinal
-          </NavLink>
-          <NavLink
-            to="/homes&projects/melgar"
-            id="nav-link-homes"
-            className="borderLeftRight"
-            onClick={() => clickHome()}
-          >
-            Melgar
           </NavLink>
           <NavLink
             to="/homes&projects/laguajira"
@@ -127,12 +127,12 @@ const Navbar = () => {
             Medellin
           </NavLink>
           <NavLink
-            to="/homes&projects/cucuta"
+            to="/homes&projects/melgar"
             id="nav-link-homes"
             className="borderLeftRight"
             onClick={() => clickHome()}
           >
-            Cucuta
+            Melgar
           </NavLink>
           <NavLink
             to="/homes&projects/sanfelipe"
@@ -143,7 +143,7 @@ const Navbar = () => {
             San Felipe
           </NavLink>
           <NavLink
-            to="/homes&projects/ibague/sanjose"
+            to="/homes&projects/sanjose"
             id="nav-link-homes"
             className="borderLeftRight"
             onClick={() => clickHome()}
