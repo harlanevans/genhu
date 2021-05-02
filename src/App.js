@@ -19,6 +19,7 @@ import LaGuajira from "./components/Homes/LaGuajira/LaGuajira";
 import Medellin from "./components/Homes/Medellin/Medellin";
 import Cucuta from "./components/Homes/Cucuta/Cucuta";
 import SanFelipe from "./components/Homes/SanFelipe/SanFelipe";
+import Error404 from "./components/404/Error404";
 
 const App = () => {
   return (
@@ -42,6 +43,7 @@ const App = () => {
           <Route exact path="/homes&projects/cucuta" component={Cucuta} />
           <Route exact path="/homes&projects/sanfelipe" component={SanFelipe} />
           <Route exact path="/homes&projects/sanjose" component={SanJose} />
+          <Route component={Error404}/>
         </Switch>
       </ScrollToTop>
       <Footer />

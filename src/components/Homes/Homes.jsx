@@ -28,8 +28,8 @@ const Homes = () => {
 export default Homes;
 
 const containerStyle = {
-  width: "100%",
-  height: "500px",
+  width: "50%",
+  height: "1000px",
 };
 
 const GoogleMapsHomes = (props) => {
