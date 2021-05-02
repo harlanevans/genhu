@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade, Zoom } from "react-reveal";
+import { Fade } from "react-reveal";
 import Carousel from "react-bootstrap/Carousel";
 import "./Landing.scss";
 
