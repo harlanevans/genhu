@@ -17,7 +17,7 @@ const Medellin = () => {
       <section id="medellin-cont">
         <div id="medellin-content">
           <header>
-            <h1 id="medellin-header">Medellin Home</h1>
+            <h1 id="medellin-header">Medellin Drop-In Center</h1>
           </header>
           <section id="medellin-sections">
             <h3 id="medellin-names">Zulma Castano</h3>
@@ -26,7 +26,7 @@ const Medellin = () => {
             </p>
           </section>
           <section id="medellin-sections">
-            <h3 id="medellin-names">Van Evans</h3>
+            <h3 id="medellin-names">Steve Hunt</h3>
             <p id="medellin-titles">
               <i>Home Sponsor</i>
             </p>

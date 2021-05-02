@@ -147,3 +147,101 @@
   }
 }
 
+@media screen and (min-width: $window) {
+  #medellin-main {
+    padding: 4em 0em 0em;
+  }
+
+  #medellin-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0em 4em;
+  }
+
+  #medellin-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // padding: 0em 4em;
+  }
+
+  #medellin-header {
+    font-weight: 400;
+    font-size: 2em;
+    padding-bottom: 1em;
+  }
+
+  #about-medellin {
+    padding: 2em 15em;
+  }
+
+  #medellin-names {
+    font-weight: 400;
+    font-size: 1.5em;
+    padding: 0em;
+  }
+
+  #medellin-childname {
+  font-size: 1em;
+  font-weight: 400;
+  padding: 0;
+}
+
+  #medellin-titles {
+    font-weight: 400;
+    font-size: 1em;
+  }
+
+  #medellin-sections {
+    padding: 0.5em 0em;
+  }
+
+  #medellin-maps-cont {
+    width: 30%;
+    padding: 2em 0em;
+  }
+
+  #medellin-paragraphs {
+    font-size: 1em;
+    padding: 0.5em 0em;
+    font-weight: 300;
+    line-height: 1.5em;
+    // text-align: center;
+  }
+
+  #medellin-image-cont {
+    display: flex;
+    justify-content: center;
+  }
+
+  #medellin-images {
+    width: 66%;
+    padding: 1em 0em;
+  }
+  #medellin-smaller-images {
+    width: 50%;
+    padding: 1em 0em;
+  }
+
+  #medellin-image-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  #medellin-button {
+    background-color: $buttonGreen;
+    color: $sugarWhite;
+    padding: 1em 2em;
+    letter-spacing: 0.15em;
+    border: none;
+    font-size: 1.25em;
+  }
+
+  #medellin-button-cont {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+

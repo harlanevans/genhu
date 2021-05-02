@@ -147,3 +147,103 @@
   }
 }
 
+@media screen and (min-width: $window) {
+  #melgar-main {
+    padding: 4em 0em 0em;
+  }
+
+  #melgar-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0em 4em;
+  }
+
+  #melgar-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // padding: 0em 4em;
+  }
+
+  #melgar-header {
+    font-weight: 400;
+    font-size: 2em;
+    padding-bottom: 1em;
+  }
+
+  #about-melgar {
+    padding: 2em 15em;
+  }
+
+  #melgar-names {
+    font-weight: 400;
+    font-size: 1.5em;
+    padding: 0em;
+  }
+
+  #melgar-childname {
+  font-size: 1em;
+  font-weight: 400;
+  padding: 0;
+}
+
+  #melgar-titles {
+    font-weight: 400;
+    font-size: 1em;
+  }
+
+  #melgar-sections {
+    padding: 0.5em 0em;
+  }
+
+  #melgar-maps-cont {
+    width: 30%;
+    padding: 2em 0em;
+  }
+
+  #melgar-paragraphs {
+    font-size: 1em;
+    padding: 0.5em 0em;
+    font-weight: 300;
+    line-height: 1.5em;
+    // text-align: center;
+  }
+
+  #melgar-image-cont {
+    display: flex;
+    justify-content: center;
+  }
+
+  #melgar-images {
+    width: 66%;
+    padding: 1em 0em;
+  }
+  #melgar-smaller-images {
+    width: 50%;
+    padding: 1em 0em;
+  }
+
+  #melgar-image-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  #melgar-button {
+    background-color: $buttonGreen;
+    color: $sugarWhite;
+    padding: 1em 2em;
+    letter-spacing: 0.15em;
+    border: none;
+    font-size: 1.25em;
+  }
+
+  #melgar-button-cont {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+
+

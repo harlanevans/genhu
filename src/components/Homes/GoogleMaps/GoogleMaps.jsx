@@ -4,7 +4,7 @@ import HomeMarker from '../../../assets/icons/HomeMarker.svg'
 
 const containerStyle = {
   width: "100%",
-  height: "500px",
+  height: "400px",
 };
 
 const GoogleMaps = (props) => {

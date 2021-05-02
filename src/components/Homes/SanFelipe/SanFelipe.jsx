@@ -17,7 +17,7 @@ const SanFelipe = () => {
       <section id="sanfelipe-cont">
         <div id="sanfelipe-content">
           <header>
-            <h1 id="sanfelipe-header">San Felipe Home</h1>
+            <h1 id="sanfelipe-header">San Felipe Drop-In Center</h1>
           </header>
           <section id="sanfelipe-sections">
             <h3 id="sanfelipe-names">Ana Julia Giraud</h3>

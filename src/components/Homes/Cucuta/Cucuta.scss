@@ -147,108 +147,46 @@
   }
 }
 
-@import "../../../assets/Global.scss";
-
-#cucuta-main {
-  padding: 6em 0em 2em;
-}
-
-#cucuta-cont {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0em 2em;
-
-}
-
-#cucuta-header {
-  font-weight: 400;
-  font-size: 2em;
-}
-
-#cucuta-names {
-  font-weight: 400;
-  font-size: 1.25em;
-  padding: 0.5em 0em;
-}
-
-#cucuta-titles {
-  font-weight: 400;
-  font-size: 0.75em;
-}
-
-#cucuta-sections {
-  padding: 1em 0em;
-}
-
-#cucuta-maps-cont {
-  padding: 2em 0em;
-}
-
-
-#cucuta-paragraphs {
-  font-size: 0.9em;
-  padding: 1em 0em;
-  font-weight: 300;
-  line-height: 2em;
-}
-
-#cucuta-images {
-  width: 100%;
-  padding: 1em 0em;
-}
-
-#cucuta-button {
-  background-color: $buttonGreen;
-  color: $sugarWhite;
-  padding: 1em 2em;
-  letter-spacing: 0.15em;
-  border: none;
-  font-size: 1em;
-}
-
-#cucuta-button-cont {
-  display: flex;
-  justify-content: center;
-}
-
-#about-cucuta {
-  padding: 2em;
-}
-
-
-// tablet breakpoint
-@media screen and (min-width: $tablet) {
+  @media screen and (min-width: $window) {
   #cucuta-main {
-    padding: 6em 0em 0em;
+    padding: 4em 0em 0em;
   }
 
   #cucuta-cont {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 0em 2em;
+    justify-content: space-evenly;
+    padding: 0em 4em;
   }
 
   #cucuta-content {
-      display: flex;
-  flex-direction: column;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // padding: 0em 4em;
   }
 
   #cucuta-header {
     font-weight: 400;
     font-size: 2em;
+    padding-bottom: 1em;
   }
 
   #about-cucuta {
-    padding: 2em 4em;
+    padding: 2em 15em;
   }
+
   #cucuta-names {
     font-weight: 400;
     font-size: 1.5em;
-    padding: 0.5em 0em;
+    padding: 0em;
   }
+
+  #cucuta-childname {
+  font-size: 1em;
+  font-weight: 400;
+  padding: 0;
+}
 
   #cucuta-titles {
     font-weight: 400;
@@ -256,30 +194,40 @@
   }
 
   #cucuta-sections {
-    padding: 1em 0em;
+    padding: 0.5em 0em;
   }
 
   #cucuta-maps-cont {
-    width: 50%;
+    width: 30%;
     padding: 2em 0em;
   }
 
   #cucuta-paragraphs {
     font-size: 1em;
-    padding: 1em 0em;
+    padding: 0.5em 0em;
     font-weight: 300;
-    line-height: 2em;
+    line-height: 1.5em;
+    // text-align: center;
+  }
+
+  #cucuta-image-cont {
+    display: flex;
+    justify-content: center;
   }
 
   #cucuta-images {
+    width: 66%;
+    padding: 1em 0em;
+  }
+  #cucuta-smaller-images {
     width: 50%;
     padding: 1em 0em;
   }
 
-  #cucuta-image-cont {
-  display: flex;
-  justify-content: center;
-}
+  #cucuta-image-row {
+    display: flex;
+    justify-content: center;
+  }
 
   #cucuta-button {
     background-color: $buttonGreen;

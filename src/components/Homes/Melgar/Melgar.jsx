@@ -17,7 +17,7 @@ const Melgar = () => {
       <section id="melgar-cont">
         <div id="melgar-content">
           <header>
-            <h1 id="melgar-header">Melgar Home</h1>
+            <h1 id="melgar-header">Melgar Drop-In Center</h1>
           </header>
           <section id="melgar-sections">
             <h3 id="melgar-names">Maria Gabriela Romero</h3>

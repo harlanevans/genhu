@@ -17,7 +17,7 @@ const LaGuajira = () => {
       <section id="laguajira-cont">
         <div id="laguajira-content">
           <header>
-            <h1 id="laguajira-header">La Guajira Home</h1>
+            <h1 id="laguajira-header">La Guajira Drop-In Center</h1>
           </header>
           <section id="laguajira-sections">
             <h3 id="laguajira-names">Oriana Rincon</h3>
@@ -37,7 +37,7 @@ const LaGuajira = () => {
         </section>
       </section>
       <Numbers
-        firstNumber={200}
+        firstNumber={50}
         firstString={"Sheltered Children"}
         secondNumber={0}
         secondString={"Victims of Armed Conflict"}

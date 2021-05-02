@@ -17,7 +17,7 @@ const Cucuta = () => {
       <section id="cucuta-cont">
         <div id="cucuta-content">
           <header>
-            <h1 id="cucuta-header">Cucuta Home</h1>
+            <h1 id="cucuta-header">Cucuta Drop-In Center</h1>
           </header>
           <section id="cucuta-sections">
             <h3 id="cucuta-names">Ana Julia Giraud</h3>
@@ -26,7 +26,7 @@ const Cucuta = () => {
             </p>
           </section>
           <section id="cucuta-sections">
-            <h3 id="cucuta-names">Mitch Burton & Steve Hunt</h3>
+            <h3 id="cucuta-names">Mitch Burton</h3>
             <p id="cucuta-titles">
               <i>Home Sponsor</i>
             </p>
@@ -37,7 +37,7 @@ const Cucuta = () => {
         </section>
       </section>
       <Numbers
-        firstNumber={375}
+        firstNumber={430}
         firstString={"Sheltered Children"}
         secondNumber={100}
         secondString={"Victims of Armed Conflict or Refugees"}
