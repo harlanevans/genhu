@@ -1,10 +1,22 @@
 @import "../../../assets/Global.scss";
 
+
 #proven-page {
-  padding: 2em 2em 4em;
-  height: 100%;
-  // width: 100%;
-}
+    padding: 2em 0em 4em;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #proven-video-cont {
+    width: 80%;
+  }
+  iframe {
+    width: 100%;
+  }
 
 #proven-headers-cont {
   padding: 1em 0em 1.5em;
@@ -32,10 +44,22 @@
 
 // tablet breakpoint
 @media screen and (min-width: $tablet) {
+  
   #proven-page {
-    padding: 6em 4em 6em;
+    padding: 6em 0em 6em;
     height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #proven-video-cont {
     width: 80%;
+  }
+  iframe {
+    width: 100%;
   }
   
   #proven-headers-cont {
@@ -74,7 +98,15 @@
   #proven-page {
     padding: 6em 6em 6em;
     height: 100%;
-    width: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #proven-video-cont {
+    width: 50%;
   }
 
   #proven-headers-cont {
@@ -85,14 +117,14 @@
   }
 
   #proven-headers {
-    font-size: $headerSize;
+    font-size: 2em;
     font-weight: 400;
     padding-right: .5em;
   }
 
   #kids-explained {
     line-height: 2em;
-    font-size: $bodySize;
+    font-size: 1em;
     padding-bottom: 2em;
     font-weight: 300;
   }
