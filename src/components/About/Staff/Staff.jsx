@@ -2,43 +2,39 @@ import React from "react";
 import "./Staff.scss";
 
 // BOARD
-import Van from "../../../assets/images/staff/board/VanEvans.png";
+// import Van from "../../../assets/images/staff/board/VanEvans.png";
+import Van from "../../../assets/images/staff/Van.jpeg";
 import Scott from "../../../assets/images/staff/board/ScottEvans.jpeg";
 import Jaime from "../../../assets/images/staff/board/JaimeFigureroa-larger.jpeg";
 import Lindsey from "../../../assets/images/staff/board/LindseyZimmerman.jpeg";
 
 // STAFF
 import Alcides from "../../../assets/images/staff/staff/AlcidesJordan.jpeg";
-import AnaJulie from "../../../assets/images/staff/staff/AnaJuliaGiraud.jpeg";
+import AnaJulie from "../../../assets/images/staff/AnaJuliaGiraudGomez.jpeg";
 import Camila from "../../../assets/images/staff/staff/CamilaMoreno.jpeg";
 import Christine from "../../../assets/images/staff/staff/ChristineWatts.jpeg";
-import Doris from "../../../assets/images/staff/staff/DorisAvila.png";
-import Elsa from "../../../assets/images/staff/staff/ElsyYanileCortesPrada.jpg";
-import Jose from "../../../assets/images/staff/staff/JoseSantos.jpeg";
-import Maria from "../../../assets/images/staff/staff/MariaGabrielaRomero.jpg";
+import Doris from "../../../assets/images/staff/DorisAvilaGuzman.jpeg";
+import Elsa from "../../../assets/images/staff/ElsyYanileCortesPrada.jpeg";
+import Jose from "../../../assets/images/staff/JoseSantosHernandezRengifo.jpeg";
+import Maria from "../../../assets/images/staff/MariaGabrielaRomeroMorlan.jpeg";
 import Natalia from "../../../assets/images/staff/staff/NataliaAlejandraGuzman.jpeg";
-import Nayibe from "../../../assets/images/staff/staff/NayibeCatalinaRamirezGomez.jpg";
-import Oriana from "../../../assets/images/staff/staff/OrianaVanesaGarciaRincon.jpg";
-import RosaInes from "../../../assets/images/staff/staff/RosaInesPulecioGuzman.jpg";
-import Rosario from "../../../assets/images/staff/staff/RosarioVasquez.jpeg";
-import Sandra from "../../../assets/images/staff/staff/SandraGongora.jpg";
-import Santiago from "../../../assets/images/staff/staff/SantiagoSanchezBarrios.jpg";
-import Zulma from "../../../assets/images/staff/staff/ZulmaAlciraNaranjoCastano.jpg";
+import Nayibe from "../../../assets/images/staff/NayibeCatalinaRamirezGomez.jpeg";
+import Oriana from "../../../assets/images/staff/OrianaVanesaGarciaRincon.jpeg";
+import RosaInes from "../../../assets/images/staff/RosaInesPulecioGuzman.jpeg";
+import Rosario from "../../../assets/images/staff/RosarioVasquezdeLeal.jpeg";
+import Sandra from "../../../assets/images/staff/SandraMilenaGongoraLievano.jpeg";
+import Santiago from "../../../assets/images/staff/SantiagoSanchezBarrios.jpeg";
+import Zulma from "../../../assets/images/staff/ZulmaAlciraNaranjoCastaño.jpeg";
 
 // VOLUNTEERS
 import Amparo from "../../../assets/images/staff/volunteers/AmparoSoto.jpeg";
-import AnaMirian from "../../../assets/images/staff/volunteers/AnaMirianArteaga.jpeg";
+import AnaMirian from "../../../assets/images/staff/AnaMiriamArteaga.jpeg";
 import Blanca from "../../../assets/images/staff/volunteers/BlancaMeryCardozo.jpeg";
 import LuzAyde from "../../../assets/images/staff/volunteers/LuzAydeCristiano.jpeg";
 import LuzDary from "../../../assets/images/staff/volunteers/LuzDaryBarragan.jpeg";
+import FelisaAguiar from '../../../assets/images/staff/FelisaAguiar.jpeg';
 
-
-// APRIL 21 UPDATES
-// SWITCH JAIME AND VAN IMAGES -- DONE
-// COUNTRY DIRECTORS ON FIRST LINE MANAGAMENT STAFF
-// MGMT STAFF TITLE TO COUNTRY DIRECTORS
-// ADD HOME DIRETORS TITLE
-// MISC TITLE BELOW 
+import GroupImage from '../../../assets/images/staff/Group.jpeg';
 
 
 
@@ -47,6 +43,9 @@ const Staff = () => (
     <header>
       <h1 id='staff-main-header'>Our Staff</h1>
     </header>
+    <div id='staff-group-image-cont'>
+      <img src={GroupImage} alt="Staff Group" id='group-staff-img'/>
+    </div>
     <Board />
     <CountryDirectors />
     <HomeDirectors />
@@ -192,6 +191,11 @@ const Volunteers = () => (
         <span>Luz Dary Barragan</span>
         <div>Volunteer, Espinal Home</div>
       </div>
+      <div id="staff-imgHolder">
+        <img src={FelisaAguiar} alt="LuzDaryBarragan" id="staff-img" />
+        <span>Luz Dary Barragan</span>
+        <div>Volunteer, Espinal Home</div>
+      </div>
     </section>
   </section>
 );
@@ -218,7 +222,7 @@ const StaffMisc = () => (
       </div>
       <div id="staff-imgHolder">
         <img src={RosaInes} alt="RosaInesPulecioGuzman" id="staff-img" />
-        <span>Rosita Guzman</span>
+        <span>Rosa Guzman</span>
         <div>Legal Rep, Colombia</div>
       </div>
 
