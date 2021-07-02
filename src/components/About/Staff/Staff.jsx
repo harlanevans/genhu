@@ -17,7 +17,7 @@ import Doris from "../../../assets/images/staff/DorisAvilaGuzman.jpeg";
 import Elsa from "../../../assets/images/staff/ElsyYanileCortesPrada.jpeg";
 import Jose from "../../../assets/images/staff/JoseSantosHernandezRengifo.jpeg";
 import Maria from "../../../assets/images/staff/MariaGabrielaRomeroMorlan.jpeg";
-import Natalia from "../../../assets/images/staff/staff/NataliaAlejandraGuzman.jpeg";
+// import Natalia from "../../../assets/images/staff/staff/NataliaAlejandraGuzman.jpeg";
 import Nayibe from "../../../assets/images/staff/NayibeCatalinaRamirezGomez.jpeg";
 import Oriana from "../../../assets/images/staff/OrianaVanesaGarciaRincon.jpeg";
 import RosaInes from "../../../assets/images/staff/RosaInesPulecioGuzman.jpeg";
@@ -34,7 +34,7 @@ import LuzAyde from "../../../assets/images/staff/volunteers/LuzAydeCristiano.jp
 import LuzDary from "../../../assets/images/staff/volunteers/LuzDaryBarragan.jpeg";
 import FelisaAguiar from '../../../assets/images/staff/FelisaAguiar.jpeg';
 
-import GroupImage from '../../../assets/images/staff/Group.jpeg';
+// import GroupImage from '../../../assets/images/staff/Group.jpeg';
 
 
 
