@@ -43,9 +43,6 @@ const Staff = () => (
     <header>
       <h1 id='staff-main-header'>Our Staff</h1>
     </header>
-    <div id='staff-group-image-cont'>
-      <img src={GroupImage} alt="Staff Group" id='group-staff-img'/>
-    </div>
     <Board />
     <CountryDirectors />
     <HomeDirectors />
@@ -89,11 +86,6 @@ const CountryDirectors = () => (
     <header id="staff-header">Country Directors</header>
     <section id="staff-img-cont">
       <div id="staff-imgHolder">
-        <img src={Jaime} alt="JaimeFigureroa" id="staff-img" />
-        <span>Jaime Figureroa, MPA</span>
-        <div>Country Director, Peru</div>
-      </div>
-      <div id="staff-imgHolder">
         <img src={Sandra} alt="SandraGongora" id="staff-img" />
         <span>Sandra Gongora</span>
         <div>Country Director, Colombia</div>
@@ -103,6 +95,11 @@ const CountryDirectors = () => (
         <span>Ana Julia Giraud</span>
         <div>Country Director, Venezuela</div>
       </div>
+      <div id="staff-imgHolder">
+        <img src={Jaime} alt="JaimeFigureroa" id="staff-img" />
+        <span>Jaime Figureroa, MPA</span>
+        <div>Country Director, Peru</div>
+      </div>
     </section>
   </section>
 );
@@ -111,9 +108,9 @@ const HomeDirectors = () => (
     <header id="staff-header">Home Directors</header>
     <section id="staff-img-cont">
       <div id="staff-imgHolder">
-        <img src={Alcides} alt="AlcidesJordan" id="staff-img" />
-        <span>Alcides Jordan</span>
-        <div>Home Director, Azul Wasi</div>
+        <img src={Rosario} alt="RosarioVasquez" id="staff-img" />
+        <span>Rosario Vasquez</span>
+        <div>Home Director, Espinal</div>
       </div>
       <div id="staff-imgHolder">
         <img src={Elsa} alt="ElsaYanileCortesPrada" id="staff-img" />
@@ -125,7 +122,7 @@ const HomeDirectors = () => (
         <span>Doris Avila</span>
         <div>Assistant Director, Ibague - San Jose</div>
       </div>
-      
+
       <div id="staff-imgHolder">
         <img src={AnaJulie} alt="AnaJuliaGiraud" id="staff-img" />
         <span>Ana Julia Giraud</span>
@@ -148,11 +145,6 @@ const HomeDirectors = () => (
       </div>
 
       <div id="staff-imgHolder">
-        <img src={Rosario} alt="RosarioVasquez" id="staff-img" />
-        <span>Rosario Vasquez</span>
-        <div>Home Director, Espinal</div>
-      </div>
-      <div id="staff-imgHolder">
         <img src={Zulma} alt="ZulmaAlciraNaranjoCastano" id="staff-img" />
         <span>Zulma Castano</span>
         <div>Home Director, Medellin</div>
@@ -163,6 +155,11 @@ const HomeDirectors = () => (
         <span>Nayibe Gomez</span>
         <div>Assistant Director, Medellin</div>
       </div>
+      <div id="staff-imgHolder">
+        <img src={Alcides} alt="AlcidesJordan" id="staff-img" />
+        <span>Alcides Jordan</span>
+        <div>Home Director, Azul Wasi</div>
+      </div>
     </section>
   </section>
 );
@@ -172,13 +169,18 @@ const Volunteers = () => (
     <header id="staff-header">Volunteers</header>
     <section id="staff-img-cont">
       <div id="staff-imgHolder">
-        <img src={Amparo} alt="AmparoSoto" id="staff-img" />
-        <span>Amparo Soto</span>
+        <img src={AnaMirian} alt="AnaMirianArteaga" id="staff-img" />
+        <span>Ana Mirian Arteaga</span>
         <div>Volunteer, Espinal Home</div>
       </div>
       <div id="staff-imgHolder">
-        <img src={AnaMirian} alt="AnaMirianArteaga" id="staff-img" />
-        <span>Ana Mirian Arteaga</span>
+        <img src={FelisaAguiar} alt="LuzDaryBarragan" id="staff-img" />
+        <span>Felisa Aguilar</span>
+        <div>Volunteer, Melgar Home</div>
+      </div>
+      <div id="staff-imgHolder">
+        <img src={Amparo} alt="AmparoSoto" id="staff-img" />
+        <span>Amparo Soto</span>
         <div>Volunteer, Espinal Home</div>
       </div>
       <div id="staff-imgHolder">
@@ -188,11 +190,6 @@ const Volunteers = () => (
       </div>
       <div id="staff-imgHolder">
         <img src={LuzDary} alt="LuzDaryBarragan" id="staff-img" />
-        <span>Luz Dary Barragan</span>
-        <div>Volunteer, Espinal Home</div>
-      </div>
-      <div id="staff-imgHolder">
-        <img src={FelisaAguiar} alt="LuzDaryBarragan" id="staff-img" />
         <span>Luz Dary Barragan</span>
         <div>Volunteer, Espinal Home</div>
       </div>
@@ -206,16 +203,6 @@ const StaffMisc = () => (
     <header id="staff-header">Staff</header>
     <section id="staff-img-cont">
       <div id="staff-imgHolder">
-        <img src={Camila} alt="CamilaMoreno" id="staff-img" />
-        <span>Camila Moreno</span>
-        <div>Public Relations</div>
-      </div>
-      <div id="staff-imgHolder">
-        <img src={Christine} alt="ChristineWatts" id="staff-img" />
-        <span>Christine Watts</span>
-        <div>Recruitment</div>
-      </div>
-      <div id="staff-imgHolder">
         <img src={Jose} alt="JoseSantos" id="staff-img" />
         <span>Jose Santos</span>
         <div>Logistics</div>
@@ -225,11 +212,15 @@ const StaffMisc = () => (
         <span>Rosa Guzman</span>
         <div>Legal Rep, Colombia</div>
       </div>
-
       <div id="staff-imgHolder">
-        <img src={Natalia} alt="NataliaAlejandraGuzman" id="staff-img" />
-        <span>Natalia Alejandra Guzman</span>
-        <div>Marketing & Publicity</div>
+        <img src={Camila} alt="CamilaMoreno" id="staff-img" />
+        <span>Camila Moreno</span>
+        <div>Public Relations</div>
+      </div>
+      <div id="staff-imgHolder">
+        <img src={Christine} alt="ChristineWatts" id="staff-img" />
+        <span>Christine Watts</span>
+        <div>Recruitment</div>
       </div>
       <div id="staff-imgHolder">
         <img src={LuzAyde} alt="LuzAydeCristiano" id="staff-img" />

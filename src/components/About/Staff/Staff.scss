@@ -57,10 +57,6 @@
   font-size: 0.9em;
 }
 
-#group-staff-img {
-    width: 100%;
-    filter: grayscale(100%);
-  }
 
 // tablet breakpoint
 @media screen and (min-width: $tablet) {
@@ -121,10 +117,6 @@
     font-size: 0.9em;
   }
   
-  #group-staff-img {
-    width: 100%;
-    filter: grayscale(100%);
-  }
 }
 // window breakpoint
 @media screen and (min-width: $window) {
@@ -189,18 +181,6 @@
     bottom: 34px;
     font-weight: 400;
     font-size: 0.9em;
-  }
-
-  #group-staff-img {
-    padding: 2em 0em;
-    width: 50%;
-    filter: grayscale(100%);
-  }
-  
-  #staff-group-image-cont {
-    display: flex;
-    justify-content: center;
-
   }
 
 }
