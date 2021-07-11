@@ -4,8 +4,8 @@ import "./Staff.scss";
 // BOARD
 // import Van from "../../../assets/images/staff/board/VanEvans.png";
 import Van from "../../../assets/images/staff/Van.jpeg";
-import Scott from "../../../assets/images/staff/board/ScottEvans.jpeg";
-import Jaime from "../../../assets/images/staff/board/JaimeFigureroa-larger.jpeg";
+import Scott from "../../../assets/images/staff/ScottWhite.jpeg";
+import Jaime from "../../../assets/images/staff/JaimeWhite.jpeg";
 import Lindsey from "../../../assets/images/staff/board/LindseyZimmerman.jpeg";
 
 // STAFF
