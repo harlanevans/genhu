@@ -6,12 +6,14 @@ import "./Staff.scss";
 import Van from "../../../assets/images/staff/Van.jpeg";
 import Scott from "../../../assets/images/staff/ScottWhite.jpeg";
 import Jaime from "../../../assets/images/staff/JaimeWhite.jpeg";
-import Lindsey from "../../../assets/images/staff/board/LindseyZimmerman.jpeg";
+// import Lindsey from "../../../assets/images/staff/board/LindseyZimmerman.jpeg";
+import Lindsey from "../../../assets/images/staff/LindseyZimmerman.jpeg";
 
 // STAFF
 import Alcides from "../../../assets/images/staff/staff/AlcidesJordan.jpeg";
 import AnaJulie from "../../../assets/images/staff/AnaJuliaGiraudGomez.jpeg";
-import Camila from "../../../assets/images/staff/staff/CamilaMoreno.jpeg";
+// import Camila from "../../../assets/images/staff/staff/CamilaMoreno.jpeg";
+import Camila from "../../../assets/images/staff/CamilaMoreno.jpeg";
 import Christine from "../../../assets/images/staff/staff/ChristineWatts.jpeg";
 import Doris from "../../../assets/images/staff/DorisAvilaGuzman.jpeg";
 import Elsa from "../../../assets/images/staff/ElsyYanileCortesPrada.jpeg";
@@ -27,12 +29,11 @@ import Santiago from "../../../assets/images/staff/SantiagoSanchezBarrios.jpeg";
 import Zulma from "../../../assets/images/staff/ZulmaAlciraNaranjoCastaño.jpeg";
 
 // VOLUNTEERS
-import Amparo from "../../../assets/images/staff/volunteers/AmparoSoto.jpeg";
 import AnaMirian from "../../../assets/images/staff/AnaMiriamArteaga.jpeg";
-import Blanca from "../../../assets/images/staff/volunteers/BlancaMeryCardozo.jpeg";
 import LuzAyde from "../../../assets/images/staff/volunteers/LuzAydeCristiano.jpeg";
-import LuzDary from "../../../assets/images/staff/volunteers/LuzDaryBarragan.jpeg";
+import MariaMateus from "../../../assets/images/staff/MariaMateus.jpeg";
 import FelisaAguiar from '../../../assets/images/staff/FelisaAguiar.jpeg';
+import Viviana from "../../../assets/images/staff/VivianaVillamil.jpeg";
 
 // import GroupImage from '../../../assets/images/staff/Group.jpeg';
 
@@ -179,19 +180,14 @@ const Volunteers = () => (
         <div>Volunteer, Melgar Home</div>
       </div>
       <div id="staff-imgHolder">
-        <img src={Amparo} alt="AmparoSoto" id="staff-img" />
-        <span>Amparo Soto</span>
-        <div>Volunteer, Espinal Home</div>
+        <img src={MariaMateus} alt="AmparoSoto" id="staff-img" />
+        <span>Maria Mateus</span>
+        <div>Travel</div>
       </div>
       <div id="staff-imgHolder">
-        <img src={Blanca} alt="BlancaMeryCardozo" id="staff-img" />
-        <span>Blanca Mery Cardozo</span>
-        <div>Volunteer, Espinal Home</div>
-      </div>
-      <div id="staff-imgHolder">
-        <img src={LuzDary} alt="LuzDaryBarragan" id="staff-img" />
-        <span>Luz Dary Barragan</span>
-        <div>Volunteer, Espinal Home</div>
+        <img src={Viviana} alt="BlancaMeryCardozo" id="staff-img" />
+        <span>Dr. Viviana Villamil</span>
+        <div>Dentistry</div>
       </div>
     </section>
   </section>
