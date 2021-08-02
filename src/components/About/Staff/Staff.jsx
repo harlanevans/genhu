@@ -76,7 +76,7 @@ const Board = () => (
       <div id="staff-imgHolder">
         <img src={Jaime} alt="JaimeFigureroa" id="staff-img" />
         <span>Jaime Figureroa, MPA</span>
-        <div>Director, Peru</div>
+        <div>Director</div>
       </div>
     </section>
   </section>
@@ -182,12 +182,12 @@ const Volunteers = () => (
       <div id="staff-imgHolder">
         <img src={MariaMateus} alt="AmparoSoto" id="staff-img" />
         <span>Maria Mateus</span>
-        <div>Travel</div>
+        <div>Volunteer, Travel</div>
       </div>
       <div id="staff-imgHolder">
         <img src={Viviana} alt="BlancaMeryCardozo" id="staff-img" />
         <span>Dr. Viviana Villamil</span>
-        <div>Dentistry</div>
+        <div>Volunteer, Dentistry</div>
       </div>
     </section>
   </section>
@@ -198,27 +198,27 @@ const StaffMisc = () => (
   <section id="staff-section">
     <header id="staff-header">Staff</header>
     <section id="staff-img-cont">
-      <div id="staff-imgHolder">
+      <div id="staff-imgHolder-staff-bottom">
         <img src={Jose} alt="JoseSantos" id="staff-img" />
         <span>Jose Santos</span>
         <div>Logistics</div>
       </div>
-      <div id="staff-imgHolder">
+      <div id="staff-imgHolder-staff-bottom">
         <img src={RosaInes} alt="RosaInesPulecioGuzman" id="staff-img" />
         <span>Rosa Guzman</span>
         <div>Legal Rep, Colombia</div>
       </div>
-      <div id="staff-imgHolder">
+      <div id="staff-imgHolder-staff-bottom">
         <img src={Camila} alt="CamilaMoreno" id="staff-img" />
         <span>Camila Moreno</span>
         <div>Public Relations</div>
       </div>
-      <div id="staff-imgHolder">
+      <div id="staff-imgHolder-staff-bottom">
         <img src={Christine} alt="ChristineWatts" id="staff-img" />
         <span>Christine Watts</span>
         <div>Recruitment</div>
       </div>
-      <div id="staff-imgHolder">
+      <div id="staff-imgHolder-staff-bottom">
         <img src={LuzAyde} alt="LuzAydeCristiano" id="staff-img" />
         <span>Luz Ayde Cristiano</span>
         <div>Spanish Translation & Editing</div>
